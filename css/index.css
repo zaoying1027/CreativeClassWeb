@@ -1,106 +1,280 @@
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-	color: #333;}
-.header {
-    background: #fff;
-    height: 153px;
+.about-hxsd {
+    position: relative;
 }
-.headwrap {
-    padding-left: 
+.about-hxsd .fl {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 320px;
+}
+.wrap {
+    width: 1000px;
     margin: 0 auto;
     zoom: 1;
 }
-.logo {
-    margin-top: 40px;
+.wrap::after{
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
 }
-.fl {
-    float: left;
+.about-hxsd .aboutus {
+    width: 320px;
+    height: 100px;
+    background: url(../images/aboutus.jpg);
+    color: #fff;
+    font-size: 30px;
+    line-height: 100px;
 }
-.navhead {
-    padding: 25px 0px 0 0;
+.about-hxsd .about-detail {
+    box-sizing: border-box;
+    padding: 75px 30px 5px;
+    background: #e7e5ec;
 }
-.navhead div {
-    height: 40px;
-    width: 76px;
+.major {
+    width: 680px;
+    padding: 0 0 88px 0;
 }
-.navhead p {
-    font-size: 12px;
-    color: #313131;
+.major .title1 {
+    padding: 60px 0 0 0;
+}
+.title1 {
+    font-size: 40px;
     text-align: center;
-    margin-top: 7px;
-    line-height: 12px;
 }
-.nav1 div {
-    background: center bottom no-repeat;
-    text-align: center;
-}
-a {
-    color: #333;
-    text-decoration: none;
-}
-.fr {
-    float: right;
-}
-ul {
-    list-style: none;
-}
-.navhead li {
-    width: 76px;
-    height: 60px;
-    background: url(../images/navline.png) 74px 20px no-repeat;
+.major li {
+    width: 160px;
+    margin: 55px 0 0 0px;
+    height: 100px;
 }
 .flul li, .contentfl li {
     float: left;
 }
-.logo span {
-    font-size: 18px;
-    line-height: 30px;
-    padding-left: 20px;
+.fz20{
+	font-size: 20px;
+	font-weight: bold;
 }
-.on{display: none;}
-
-.bar {
-    height: 42px;
-    background: #F6F6F6;
-    font-size: 14px;
-    line-height: 42px;
-    margin-top: 26px;
-	clear: both;
+.about-hxsd .about-detail .fz14 {
+    line-height: 28px;
+    padding: 36px 0 40px;
 }
-.headwrap {
-    width: 1052px;
-    margin: 0 auto;
-    zoom: 1;
-}
-#bar {
-    overflow: visible;
-    padding-left: 50px;
-}
-.bar li {
+.official-video {
+    background: center top no-repeat;
+    width: 100%;
+    height: 538px;
     position: relative;
-    z-index: 100;
-    height: 42px;
-    padding: 0 12px;
 }
-#section1{
-	background: #5BC0DE;
-	height: 600px;
+.official-video .wrap {
+    padding: 176px;
 }
-#section2{
+.official-video .title1 {
+    font-size: 40px;
+    color: #000;
+    line-height: 190px;
+}
+.official-video a {
+    display: block;
+    width: 190px;
+    height: 190px;
+    background: url(../images/videobt.png);
+    cursor: pointer;
+}
+.ma {
+    margin: 0 auto;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.fwzq {
+    padding-bottom: 40px;
+}
+.fwzq .title1 {
+    padding: 70px 0 30px 0;
+}
+.fwzq ul li:not(:nth-child(n+4)) {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.fwzq li {
+    width: 33.3%;
+    padding: 40px 0 30px 0;
+}
+.fwzq li img {
+    width: 66px;
+    height: 66px;
+    float: left;
+    margin: 0 30px 0 0;
+}
+.fwzq li p:nth-of-type(1){
+	padding: 10px 0 0 0 ;
+	font-size: 18px;
+}
+.fwzq li:hover p:nth-of-type(1){
+	color:#ef4136;
+}
+.fwzq li p:nth-of-type(2){
+	padding: 6px 0 0 0;
+	font-size: 12px;
+	color: #a0a0a0;}
+.hoverimg .on{
+	display: none;
+}
+.campusnews{
+	background:#f8f8ff;
+	padding: 0 0 130px 0;
+}
+.campusnews .title1{
+	padding: 50px 0;
+}
+.newsunit{
+	height: 160px;
 	background: #fff;
-	height: 600px;
+	position: relative;
+	margin-bottom: 30px;
 }
-#section3{
-	background: #5BC0DE;
-	height: 600px;
+.newsunit img{
+	width: 220px;
+	height: 160px;
+	margin-right: 64px;
 }
-#section4{
-	background: #fff;
-	height: 600px;
+.newsunit .news-text{
+	width: 470px;
 }
-#section5{
-	background: #5BC0DE;
-	height: 600px;
+.newsunit .news-text h2{
+	color: #333;
+	padding: 40px 0 0 0;
+	font-size: 20px;
 }
+.newsunit .news-text p{
+	color: #8b8e9c;
+	padding: 16px 0 0 0;
+}
+.newsunit .fr{
+	margin:50px 40px 0 0;
+	color: #fff;
+}
+.newsunit .news-date p:nth-of-type(1){
+	font-size: 20px;
+	color:#999999;
+}
+.newsunit .news-date p:nth-of-type(2){
+	font-size: 28px;
+	color: #999999;
+}
+.newsunit .news-bottom{
+	height: 4px;
+	background: #ef4136;
+	width: 100%;
+	top: 160px;
+	position: absolute;
+}
+.newsunit:hover .news-bottom{
+	animation:slideLeft 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes slideLeft{
+	from{width:0;}to{width:100%;}
+}
+.campusnews .carousel-indicators{
+	bottom: -55px;
+}
+.campusnews .carousel-indicators li{
+	width: 20px;
+	height: 20px;
+	margin:0 19px 0 0;
+	background:#d2d5db;
+	border: 0;}
+.campusnews .carousel-indicators .active{
+	background: #504e4e;
+}
+
+.bg-surd{
+	background: #f5f6fb;
+	padding-bottom: 110px;
+}
+.surrounding .title1{
+	padding: 80px 0 0 0;
+}
+.surrounding .carousel{
+	padding: 70px 0 165px 0;
+}
+.surrounding .carousel-inner img{
+	width: 1000px;
+	height: 480px;
+}
+.surrounding .carousel-indicators li{
+	width: 20px;
+	height: 20px;
+	background: #d2d5db;
+	margin:0 19px 0 0;
+	border: 0;
+}
+.surrounding .carousel-indicators .active{
+	background: #504e4e;
+}
+.surrounding .carousel-indicators{
+	bottom: 85px;
+}
+
+.glory {
+    background: #333333 none repeat scroll 0 0;
+    padding: 0 0 70px;
+}
+.glory .title1 {
+    color: #fff;
+    padding: 45px 0;
+}
+.glory ul {
+    width: 1020px;
+}
+.glory li {
+    margin-bottom: 28px;
+    margin-right: 30px;
+}
+.glory li img {
+    height: 144px;
+    width: 215px;
+}
+
+.data-info{ 
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	color: #1e2b3c;
+	line-height: 24px;
+	text-align: left;}
+.data-info p{
+	width: 940px;
+	margin: 0 auto;
+}
+data-info .first-cen{
+	font-size:33px;
+	text-align:center;
+	color:#000000;
+	margin-top:50px;
+	margin-bottom:60px;
+}
+.ul_warp {
+    width: 990px;
+    margin: 0 auto;
+}
+.star li {
+    width: 220px;
+    float: left;
+    margin: 0px 7px 40px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+}
+.clear {
+    display: block;
+}
+.stu-job {
+    padding-left: 6px;
+}
+
+
