@@ -1,7 +1,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	
 }
 #headimg{
 	height: 400px;
@@ -20,6 +19,14 @@
 	background-color: red;
 	height: 400px;
 }
+#texts{
+	color: white;
+	font-size: 16px;
+	height:50px;
+	width: 50%;
+	margin-top: 25px;
+	margin-left: 25%;
+}
 #secondimg{
 	background-color:blue;
 	height: 400px;
@@ -27,23 +34,5 @@
 #compare{
 	height: 400px;
 	position: relative;
-	text-align: center;
 }
-#compare p{
-	font-size: 36px;
-	font-weight: 400;
-}
-#bg{
-	background-color: #000000;
-	margin-left:25%;
-	position: absolute;
-	height: 100%;
-	width: 50%;
-	opacity: 0.2;
-}
-#last{
-	margin-top: 60px;
-}
-#works{
-	height: 400px;
-}
+
