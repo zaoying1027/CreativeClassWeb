@@ -1,0 +1,68 @@
+.form{
+	margin-top: 5%;
+	width: 1050px;
+	border:2px solid #1B6D85;
+	padding-bottom: 5%;
+	
+}
+.same{
+	
+	border-top: 2px dotted #1B6D85;
+	padding-top: 3%;
+	text-align: center;
+}
+.same span{
+	color: red;
+}
+.form h4{
+	color: #002060;
+}
+.form_top{
+	
+	height: 65px;
+	margin-top: 2.5%;
+	margin-bottom: 4%;
+	border-bottom:2px dotted #1B6D85;
+	text-align: center;
+	line-height: 65px;
+	font-size: 24px;
+}
+.form_mid{
+	height: 150px;
+	padding-left: 18%;
+	
+}
+.form_bot{
+	
+}
+.ribbon{
+	margin-top: -25px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.ribbon-content{
+	border: 1px solid #DDD;
+	font-weight: bold;
+	margin: 0 -10px;
+	min-height: 30px;
+	padding: 7px 31px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	color: white;
+	}
+ .ribbon-left{
+ 	display: block;
+ 	border-left: 10px solid white;
+ 	border-top: 8px solid #1B6D85;
+ 	float: left;
+ 	height: 0;
+ 	margin-left: -10px;
+ 	width: 0;}
+ .ribbon-right{
+ 	display: block;
+ 	border-right: 10px solid white;
+ 	border-top: 8px solid #1B6D85;
+ 	float: right;height: 0;
+ 	margin-right: -10px;
+ 	width: 0;}
