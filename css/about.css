@@ -1,0 +1,17 @@
+.about{
+	background-color:#282738;
+	margin:0 auto;
+}
+.about p{
+	color: white;
+	font-size: 26px;
+}
+.asame{
+	padding: 3% 0 0 30%;
+}
+.aicon{
+
+	padding: 3% 5% 4% 25%;
+	 width: 20%; 
+	 float: left;
+}
