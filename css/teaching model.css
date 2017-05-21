@@ -17,7 +17,7 @@
 	color: white;
 	text-decoration: none;
 }
-#headimg .checked a{
+#headimg .checked a,#headimg ul li a:hover{
 	color: #f1f36c;
 }
 #headimg ul{
