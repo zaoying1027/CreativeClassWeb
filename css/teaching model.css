@@ -4,12 +4,31 @@
 	
 }
 #headimg{
-	height: 400px;
-	text-align:center;
+	height:484px;
+	background: rgba(0, 0, 0, 0) url("../images/bannerBg.jpg") no-repeat scroll center top;
+}
+#headimg ul li{
+	float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 50px;
+}
+#headimg ul li a{
+	color: white;
+	text-decoration: none;
+}
+#headimg .checked a{
+	color: #f1f36c;
+}
+#headimg ul{
+	width:900px;
+	display: block;
+	margin:312px auto;
+	
 }
 .separate{
-	background-color:#F6F6F6;
-	color: red;
+	background: url(../images/h1Bg.jpg) repeat-x;
+	color: #cf0f0f;
 	height:42px;
 	font-size: 20px;
 	line-height: 42px;
@@ -17,11 +36,11 @@
 	font-family: "仿宋";
 }
 #firstimg,#thirdimg{
-	background-color: red;
+	background-color: #ac0000;
 	height: 400px;
 }
 #secondimg{
-	background-color:blue;
+	background-color:#002060;
 	height: 400px;
 }
 #compare{
