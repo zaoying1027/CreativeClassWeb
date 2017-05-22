@@ -1,8 +1,10 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "微软雅黑";
 }
 #headimg{
+	margin-top: 15px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/bannerBg.jpg") no-repeat scroll center top;
 }
@@ -27,32 +29,39 @@
 	color: #f1f36c;
 }
 .separate{
-	 background: url(../images/h1Bg.jpg) repeat-x;
+	background: url(../images/h1Bg.jpg) repeat-x;
 	color: #cf0f0f;
-	height:42px;
-	font-size: 20px;
-	line-height: 42px;
+	height:58px;
+	font-size: 25px;
+	line-height: 58px;
 	text-align: center;
-	font-family: "仿宋";
 }
-#firstimg,#thirdimg{
-	background-color: #ac0000;
-	height: 400px;
+#firstimg{
+	height: 543px;
+	text-align: center;
 }
 #secondimg{
+	text-align: center;
 	background-color:#002060;
-	height: 400px;
+	height: 543px;
 }
-#texts{
-	color: white;
+#thirdimg{
+	height: 543px;
+	text-align: center;
+	background-color: #ac0000;
+	
+}
+.texts{
+	text-align: left;
+	margin: 20px auto;
+    overflow: hidden;
+    width: 600px;
+	color: #000000;
+	font-weight: bold;
 	font-size: 16px;
-	height:50px;
-	width: 50%;
-	margin-top: 25px;
-	margin-left: 25%;
 }
 #compare{
-	height: 400px;
+	height: 543px;
 	position: relative;
 }
 

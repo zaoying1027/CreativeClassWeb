@@ -1,9 +1,10 @@
 *{
 	margin: 0;
 	padding: 0;
-	
+	font-family: "微软雅黑";
 }
 #headimg{
+	margin-top: 15px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/bannerBg.jpg") no-repeat scroll center top;
 }
@@ -29,40 +30,33 @@
 .separate{
 	background: url(../images/h1Bg.jpg) repeat-x;
 	color: #cf0f0f;
-	height:42px;
-	font-size: 20px;
-	line-height: 42px;
+	height:58px;
+	font-size: 25px;
+	line-height: 58px;
 	text-align: center;
-	font-family: "仿宋";
 }
 #firstimg,#thirdimg{
 	background-color: #ac0000;
-	height: 400px;
+	height: 543px;
 }
 #secondimg{
 	background-color:#002060;
-	height: 400px;
+	height: 543px;
 }
 #compare{
-	height: 400px;
-	position: relative;
+	height: 543px;
 	text-align: center;
 }
 #compare p{
 	font-size: 36px;
 	font-weight: 400;
 }
-#bg{
-	background-color: #000000;
-	margin-left:25%;
-	position: absolute;
-	height: 100%;
-	width: 50%;
-	opacity: 0.2;
-}
-#last{
-	margin-top: 60px;
+.texts{
+	margin: 0 auto;
+    overflow: hidden;
+    width: 800px;
 }
 #works{
-	height: 400px;
+	text-align: center;
+	height: 543px;
 }
