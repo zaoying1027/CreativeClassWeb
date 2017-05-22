@@ -1,0 +1,132 @@
+.wrap{
+	width: 935px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.title{
+	margin: 0px;
+	padding: 15px 0;
+    font-size: 26px;
+    font-weight: normal;
+    color: #cf0f0f;
+    text-align: center;
+    background: url(../images/h1Bg.jpg) repeat-x;
+}
+.text1{
+	margin: auto;
+	margin-bottom: 30px;
+	width: 800px;
+	font-size: 16px;
+	line-height: 22px;
+	color: white;
+}
+.text2{
+	margin: auto;
+	margin-bottom: 30px;
+	width: 800px;
+	font-size: 16px;
+	line-height: 22px;
+	color: black;
+}
+.text3{
+	margin: auto;
+	margin-bottom: 30px;
+	width: 800px;
+	font-size: 16px;
+	line-height: 22px;
+	color: black;
+	text-align: center;
+}
+#sector1{
+}
+#headimg{
+	height: 484px;
+    background: rgba(0, 0, 0, 0) url(../images/bannerBg.jpg) no-repeat scroll center top;
+}
+#headimg ul{
+	width: 900px;
+    display: block;
+    margin: 312px auto;
+    list-style: none;
+    padding: 0px;
+}
+#headimg ul li{
+	float: left;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 50px;
+}
+#headimg ul li a{
+	color: white;
+    text-decoration: none;
+}
+#headimg ul li a:hover,#headimg ul .checked a{
+	color: #f1f36c;
+}
+#sector2{
+	background: #fff;
+}
+#sector2_img{
+	margin: auto;
+	width: 100%;
+	color: #fff;
+	height: 500px;
+	background-color: #071FDC;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+#sector3{
+	height: 500px;
+	background: #002060;
+}
+
+#sector3_img1,#sector3_img2{
+	float: left;
+	margin: 5px;
+}
+#sector3_img1 div{
+	width: 180px;
+	height: 140px;
+	background: url(../images/award.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#sector3_img1 div:nth-of-type(1){
+	margin-bottom: 10px;
+}
+#sector3_img2 div{
+	width: 180px;
+	height: 140px;
+	background: url(../images/award.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#sector3_img2 div:nth-of-type(1){
+	margin-bottom: 10px;
+}
+#sector4{
+	height: 500px;
+	background: white;
+}
+#sector5{
+	background: white;
+}
+#sector5_img{
+	margin: auto;
+	width: 730px;
+}
+
+#sector6{
+	background: white;
+}
+
+
+
+
+
+#footer{
+	height: 80px;
+	background: #404040;
+}
