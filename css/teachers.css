@@ -46,10 +46,7 @@
 	height: 543px;
 }
 #thirdimg{
-	height: 543px;
-	text-align: center;
-	background-color: #ac0000;
-	
+	height: 650px;
 }
 .texts{
 	text-align: left;
@@ -60,8 +57,52 @@
 	font-weight: bold;
 	font-size: 16px;
 }
+#zju{
+	height: 200px;
+	width: 800px;
+	background-color: #F6F6F6;
+	margin: 20px auto;
+    overflow: hidden;
+    border-bottom: solid #9D9D9D;
+}
+#zju p{
+	text-indent:2em;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	font-size: 10px;
+	width: 270px;
+}
+.btext{
+	margin-left: 10px;
+	font-weight: bold;
+}
+#zjd{
+	height: 330px;
+	width: 800px;
+	background-color: #F6F6F6;
+	margin: -20px auto;
+    overflow: hidden;
+}
+#zjd table{
+	margin-top: 20px;
+}
+#zjd td{
+	padding: 5px;
+}
+.ptext{
+	display: block;
+	margin-top: 10px;
+	margin-left: 30px;
+	font-weight: bold;
+	
+}
 #compare{
 	height: 543px;
 	position: relative;
+}
+#footer{
+	height: 80px;
+	background: #404040;
 }
 
