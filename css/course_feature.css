@@ -133,34 +133,37 @@
 	left: 73%;
 }
 #sector3{
-	height: 500px;
 	background: #002060;
 }
 #sector3_img{
-	width: 380px;
+	width: 800px;
 	margin: auto;
 }
 #sector3_img1,#sector3_img2{
 	float: left;
 	margin: 5px;
 }
-#sector3_img1 div{
-	width: 180px;
-	height: 140px;
-	background: url(../images/award.jpg) no-repeat;
-	background-size: 100% 100%;
+#sector3_img1 div,#sector3_img2 div{
+	width: 384px;
+	height: 230px;
 }
 #sector3_img1 div:nth-of-type(1){
 	margin-bottom: 10px;
+	background: url(../images/img4_1.jpg) no-repeat;
+	background-size: 100% 100%;
 }
-#sector3_img2 div{
-	width: 180px;
-	height: 140px;
-	background: url(../images/award.jpg) no-repeat;
+#sector3_img1 div:nth-of-type(2){
+	background: url(../images/img4_2.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 #sector3_img2 div:nth-of-type(1){
 	margin-bottom: 10px;
+	background: url(../images/img4_3.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#sector3_img2 div:nth-of-type(2){
+	background: url(../images/img4_4.jpg) no-repeat;
+	background-size: 100% 100%;
 }
 #sector4{
 	height: 500px;
@@ -170,8 +173,7 @@
 	background: white;
 }
 #sector5_img{
-	margin: auto;
-	width: 730px;
+	width: 935px;
 }
 .sector5_img{
 	margin: 5px;
@@ -179,31 +181,55 @@
 .sector5_img div{
 	margin: 5px;
 	float: left;
-	width: 350px;
-	height: 210px;
+	width: 298px;
+	height: 180px;
 }
 .sector5_img:nth-of-type(1) div:nth-of-type(1){
-	background: url(../images/award.jpg) no-repeat;
+	background: url(../images/shixi1.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(1) div:nth-of-type(2){
-	background: url(../images/award.jpg) no-repeat;
+	background: url(../images/shixi2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.sector5_img:nth-of-type(1) div:nth-of-type(3){
+	background: url(../images/shixi3.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(2) div:nth-of-type(1){
-	background: url(../images/award.jpg) no-repeat;
+	background: url(../images/gongsi2.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(2) div:nth-of-type(2){
-	background: url(../images/award.jpg) no-repeat;
+	background: url(../images/gongsi5.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.sector5_img:nth-of-type(2) div:nth-of-type(3){
+	background: url(../images/gongsi4.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(3) div:nth-of-type(1){
-	background: url(../images/award.jpg) no-repeat;
+	background: url(../images/liyi1.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(3) div:nth-of-type(2){
-	background: url(../images/award.jpg) no-repeat;
+	background: url(../images/liyi2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.sector5_img:nth-of-type(3) div:nth-of-type(3){
+	background: url(../images/liyi3.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.sector5_img:nth-of-type(4) div:nth-of-type(1){
+	background: url(../images/teambition.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.sector5_img:nth-of-type(4) div:nth-of-type(2){
+	background: url(../images/github.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sector5_img:nth-of-type(4) div:nth-of-type(3){
+	background: url(../images/sourcetree.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 #sector6{
