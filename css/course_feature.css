@@ -20,7 +20,7 @@
 	width: 800px;
 	font-size: 16px;
 	line-height: 22px;
-	color: white;
+	color: #000;
 }
 .text2{
 	margin: auto;
@@ -133,7 +133,8 @@
 	left: 73%;
 }
 #sector3{
-	background: #002060;
+	background: #FFF;
+	color: #000;
 }
 #sector3_img{
 	width: 800px;
@@ -209,26 +210,14 @@
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(3) div:nth-of-type(1){
-	background: url(../images/liyi1.jpg) no-repeat;
-	background-size: 100% 100%;
-}
-.sector5_img:nth-of-type(3) div:nth-of-type(2){
-	background: url(../images/liyi2.jpg) no-repeat;
-	background-size: 100% 100%;
-}
-.sector5_img:nth-of-type(3) div:nth-of-type(3){
-	background: url(../images/liyi3.jpg) no-repeat;
-	background-size: 100% 100%;
-}
-.sector5_img:nth-of-type(4) div:nth-of-type(1){
 	background: url(../images/teambition.jpg) no-repeat;
 	background-size: 100% 100%;
 }
-.sector5_img:nth-of-type(4) div:nth-of-type(2){
+.sector5_img:nth-of-type(3) div:nth-of-type(2){
 	background: url(../images/github.png) no-repeat;
 	background-size: 100% 100%;
 }
-.sector5_img:nth-of-type(4) div:nth-of-type(3){
+.sector5_img:nth-of-type(3) div:nth-of-type(3){
 	background: url(../images/sourcetree.jpg) no-repeat;
 	background-size: 100% 100%;
 }
@@ -293,12 +282,19 @@
 .tableBbgcolor2{
 	background: linear-gradient(to right,#edab7d,#ecab81);
 }
-#tablecompare{
+#tablecompare1{
 	margin-top: 50px;
 	float: left;
-	width: 933px;
+	width: 450px;
 	height: 435px;
-	background: url(../images/img10.jpg);
+	/*background: url(../images/img10.jpg);*/
+}
+#tablecompare2{
+	margin-top: 50px;
+	float: left;
+	width: 450px;
+	height: 435px;
+	/*background: url(../images/img10.jpg);*/
 }
 #footer{
 	height: 80px;
