@@ -103,5 +103,18 @@ ul {
 a:hover{
 	text-decoration: none;
 }
+a:visited{
+	text-decoration: none !important;
+	color: #000;
+}
+a:link{
+	text-decoration: none;
+}
+.click{
+	background: rgb(232,25,41);
+}
+.click a{
+	color: #fff;
+}
 
 

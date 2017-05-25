@@ -35,12 +35,19 @@
 	line-height: 58px;
 	text-align: center;
 }
-#firstimg,#thirdimg{
-	background-color: #ac0000;
+#firstimg{
+	background: url(../images/redBg.jpg);
+	background-size: cover;
+	height: 543px;
+}
+#thirdimg{
+	background: url(../images/redBg.jpg);
+	background-size: cover;
 	height: 543px;
 }
 #secondimg{
-	background-color:#002060;
+	background:url(../images/blueBg.jpg);
+	background-size: cover;
 	height: 543px;
 }
 #compare{
