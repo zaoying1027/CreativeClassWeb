@@ -20,7 +20,7 @@
 	width: 800px;
 	font-size: 16px;
 	line-height: 22px;
-	color: white;
+	color: #000;
 }
 .text2{
 	margin: auto;
@@ -133,7 +133,8 @@
 	left: 73%;
 }
 #sector3{
-	background: #002060;
+	background: #FFF;
+	color: #000;
 }
 #sector3_img{
 	width: 800px;
@@ -293,12 +294,19 @@
 .tableBbgcolor2{
 	background: linear-gradient(to right,#edab7d,#ecab81);
 }
-#tablecompare{
+#tablecompare1{
 	margin-top: 50px;
 	float: left;
-	width: 933px;
+	width: 450px;
 	height: 435px;
-	background: url(../images/img10.jpg);
+	/*background: url(../images/img10.jpg);*/
+}
+#tablecompare2{
+	margin-top: 50px;
+	float: left;
+	width: 450px;
+	height: 435px;
+	/*background: url(../images/img10.jpg);*/
 }
 #footer{
 	height: 80px;

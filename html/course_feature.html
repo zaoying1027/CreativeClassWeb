@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<title>创新班教学特色</title>
 		<link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
 		<link href="../css/common.css" type="text/css" rel="stylesheet"/>
 		<link href="../css/course_feature.css" type="text/css" rel="stylesheet" />
@@ -69,7 +69,7 @@
 								   <p><span class="dhtitle">首页</span>  </p>
 							  </a>
 						  </li>
-						  <li>
+						  <li class="click">
 							  <a href="course_feature.html" target="_blank">
 								   <p><span class="dhtitle">课程特色</span></p>
 							  </a>
@@ -416,7 +416,12 @@
 							</tr>
 						</table>
 					</div>
-					<div id="tablecompare"></div>
+				</div>
+				<div id="tablecompare1">
+						
+				</div>
+				<div id="tablecompare2">
+						
 				</div>
 			</div>
 		</div>
@@ -426,4 +431,163 @@
 	</body>	
 	<script src="../js/jquery.min.js" type="text/javascript"></script>
 	<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../js/echarts.js"></script>
+	<script>
+		var myChart1 = echarts.init(document.getElementById('tablecompare1'));
+		var myChart2 = echarts.init(document.getElementById('tablecompare2'));
+
+        // 指定图表的配置项和数据
+        var data = [{
+				value: 3661,
+				name: '<10w'
+			}, {
+				value: 5713,
+				name: '10w-50w'
+			}, {
+				value: 9938,
+				name: '50w-100w'
+			}, {
+				value: 17623,
+				name: '100w-500w'
+			}, {
+				value: 3299,
+				name: '>500w'
+			}];
+			option1 = {
+				backgroundColor: '#fff',
+				title: {
+					text: '注册资金',
+					subtext: '2016年',
+					x: 'center',
+					y: 'center',
+					textStyle: {
+						fontWeight: 'normal',
+						fontSize: 16
+					}
+				},
+				tooltip: {
+					show: true,
+					trigger: 'item',
+					formatter: "{b}: {c} ({d}%)"
+				},
+				legend: {
+					orient: 'vertical',
+					left:'2%',
+					top: '10%',
+					data: ['<10w', '10w-50w', '50w-100w', '100w-500w', '>500w']
+				},
+				series: [{
+					type: 'pie',
+					selectedMode: 'single',
+					radius: ['25%', '58%'],
+					color: ['#86D560', '#AF89D6', '#59ADF3', '#FF999A', '#FFCC67'],
+
+					label: {
+						normal: {
+							position: 'inner',
+							formatter: '{d}%',
+
+							textStyle: {
+								color: '#fff',
+								fontWeight: 'bold',
+								fontSize: 14
+							}
+						}
+					},
+					labelLine: {
+						normal: {
+							show: false
+						}
+					},
+					data: data
+				}]
+			};
+		
+		
+		option2 = {
+			title : {
+				text: '南丁格尔玫瑰图',
+				subtext: '纯属虚构',
+				x:'center'
+			},
+			tooltip : {
+				trigger: 'item',
+				formatter: "{a} <br/>{b} : {c} ({d}%)"
+			},
+			legend: {
+				x : 'center',
+				y : 'bottom',
+				data:['rose1','rose2','rose3','rose4','rose5','rose6','rose7','rose8']
+			},
+			toolbox: {
+				show : true,
+				feature : {
+					mark : {show: true},
+					dataView : {show: true, readOnly: false},
+					magicType : {
+						show: true,
+						type: ['pie', 'funnel']
+					},
+					restore : {show: true},
+					saveAsImage : {show: true}
+				}
+			},
+			calculable : true,
+			series : [
+				{
+					name:'半径模式',
+					type:'pie',
+					radius : [20, 110],
+					center : ['25%', '50%'],
+					roseType : 'radius',
+					label: {
+						normal: {
+							show: false
+						},
+						emphasis: {
+							show: true
+						}
+					},
+					lableLine: {
+						normal: {
+							show: false
+						},
+						emphasis: {
+							show: true
+						}
+					},
+					data:[
+						{value:10, name:'rose1'},
+						{value:5, name:'rose2'},
+						{value:15, name:'rose3'},
+						{value:25, name:'rose4'},
+						{value:20, name:'rose5'},
+						{value:35, name:'rose6'},
+						{value:30, name:'rose7'},
+						{value:40, name:'rose8'}
+					]
+				},
+				/*{
+					name:'面积模式',
+					type:'pie',
+					radius : [30, 110],
+					center : ['75%', '50%'],
+					roseType : 'area',
+					data:[
+						{value:10, name:'rose1'},
+						{value:5, name:'rose2'},
+						{value:15, name:'rose3'},
+						{value:25, name:'rose4'},
+						{value:20, name:'rose5'},
+						{value:35, name:'rose6'},
+						{value:30, name:'rose7'},
+						{value:40, name:'rose8'}
+					]
+				}*/
+			]
+		};
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1);
+		myChart2.setOption(option2);
+	</script>
 </html>
