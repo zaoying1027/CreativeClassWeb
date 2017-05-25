@@ -74,14 +74,15 @@
 	width: 100%;
 	color: #fff;
 	height: 500px;
-	background-color: #071FDC;
+	background:url(../images/Eblue.png);
 	background-size: 100% 100%;
 	position: relative;
 }
 
 #sector3{
 	height: 500px;
-	background: #002060;
+	background: url(../images/Ered.jpg);
+	background-size: contain;
 }
 
 #sector3_img1,#sector3_img2{
