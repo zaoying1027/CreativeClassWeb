@@ -114,9 +114,15 @@
 #sector5{
 	background: white;
 }
-#sector5_img{
-	margin: auto;
-	width: 730px;
+.fair{
+	clear: both;
+}
+.fair div{
+	margin: 5px;
+	float: left;
+	width: 298px;
+	height: 180px;
+	background-size: cover;
 }
 
 #sector6{
