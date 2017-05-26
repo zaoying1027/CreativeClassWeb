@@ -128,8 +128,16 @@
 	
 }
 #compare{
+	margin: 0 auto;
 	height: 543px;
 	position: relative;
+}
+#Internet{
+	float: left;
+}
+#tradition{
+
+	float: left;
 }
 #footer{
 	height: 80px;
