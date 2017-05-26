@@ -22,14 +22,7 @@
 	line-height: 22px;
 	color: white;
 }
-.text2{
-	margin: auto;
-	margin-bottom: 30px;
-	width: 800px;
-	font-size: 16px;
-	line-height: 22px;
-	color: black;
-}
+
 .text3{
 	margin: auto;
 	margin-bottom: 30px;
@@ -39,8 +32,7 @@
 	color: black;
 	text-align: center;
 }
-#sector1{
-}
+
 #headimg{
 	height: 484px;
     background: rgba(0, 0, 0, 0) url(../images/bannerBg.jpg) no-repeat scroll center top;
@@ -74,14 +66,22 @@
 	width: 100%;
 	color: #fff;
 	height: 500px;
-	background:url(../images/Eblue.png);
+	/*background:url(../images/employee/Eblue.png);*/
 	background-size: 100% 100%;
 	position: relative;
 }
-
+.text2{
+	margin: auto;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	width: 800px;
+	font-size: 16px;
+	line-height: 22px;
+	color: #fff;
+}
 #sector3{
 	height: 500px;
-	background: url(../images/Ered.jpg);
+	/*background: url(../images/employee/Ered.jpg);*/
 	background-size: contain;
 }
 
