@@ -73,7 +73,7 @@
 	margin: auto;
 	width: 500px;
 	height: 500px;
-	background: url(../images/三圆.png) no-repeat;
+	background: url(../images/course_fea_img/threecircle.png) no-repeat;
 	background-size: 100% 100%;
 	position: relative;
 }
@@ -83,7 +83,7 @@
 	position: absolute;
 	top: 35%;
 	left: 24%;
-	background: url(../images/灯泡.png) no-repeat;
+	background: url(../images/course_fea_img/bulb.png) no-repeat;
 	background-size: 100% 100%;
 }
 .inner_img:nth-of-type(2){
@@ -92,7 +92,7 @@
 	position: absolute;
 	top: 37%;
 	left: 67%;
-	background: url(../images/箭头.png) no-repeat;
+	background: url(../images/course_fea_img/arrow.png) no-repeat;
 	background-size: 100% 100%;
 }
 .inner_img:nth-of-type(3){
@@ -101,7 +101,7 @@
 	position: absolute;
 	top: 71%;
 	left: 45%;
-	background: url(../images/文件.png) no-repeat;
+	background: url(../images/course_fea_img/file.png) no-repeat;
 	background-size: 100% 100%;
 }
 .inner_text{
@@ -167,7 +167,6 @@
 	background-size: 100% 100%;
 }
 #sector4{
-	height: 500px;
 	background: white;
 }
 #sector5{
@@ -186,15 +185,15 @@
 	height: 180px;
 }
 .sector5_img:nth-of-type(1) div:nth-of-type(1){
-	background: url(../images/shixi1.jpg) no-repeat;
+	background: url(../images/course_fea_img/shixi1.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(1) div:nth-of-type(2){
-	background: url(../images/shixi2.jpg) no-repeat;
+	background: url(../images/course_fea_img/shixi2.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(1) div:nth-of-type(3){
-	background: url(../images/shixi3.jpg) no-repeat;
+	background: url(../images/course_fea_img/shixi3.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(2) div:nth-of-type(1){
@@ -282,19 +281,38 @@
 .tableBbgcolor2{
 	background: linear-gradient(to right,#edab7d,#ecab81);
 }
+#course_contrast{
+	float: left;
+	width: 935px;
+	position: relative;
+}
+#course_contrast p{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 80px;
+}
 #tablecompare1{
 	margin-top: 50px;
 	float: left;
-	width: 450px;
+	width: 425px;
 	height: 435px;
 	/*background: url(../images/img10.jpg);*/
 }
 #tablecompare2{
 	margin-top: 50px;
 	float: left;
-	width: 450px;
+	width: 425px;
 	height: 435px;
 	/*background: url(../images/img10.jpg);*/
+}
+#tablevs{
+	width: 85px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 600;
+	float: left;
+	margin-top: 200px;
 }
 #footer{
 	height: 80px;
