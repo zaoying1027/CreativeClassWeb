@@ -172,10 +172,11 @@
 			<div id="thirdimg" class="container-fluid">
 				<img src="../images/professor.jpg" alt="" style="margin-top: 60px;"/>
 			</div>
-			<div class="container-fluid separate">传道授业水平</div>
+			<div class="separate">传道授业水平</div>
 			<div id="compare">
-				<div id="Internet" style="width: 500px; height: 400px"></div>
-				<div id="tradition" style="width: 500px; height: 400px"></div>
+				<div id="Internet" style="width: 400px; height: 300px"></div>
+				<div id="VS">VS</div>
+				<div id="tradition" style="width: 400px; height: 300px"></div>
 			</div>
 		</div>
 		<footer id="footer">
@@ -188,8 +189,6 @@
 	<script>
 		var myChart1 = echarts.init(document.getElementById('Internet'));
 		var myChart2 = echarts.init(document.getElementById('tradition'));
-        // 指定图表的配置项和数据
-      
 			option1 = {
 			title: {
 				text: '互联网师资',
@@ -209,21 +208,50 @@
 			},
 			xAxis: {
 				type: 'value',
-				boundaryGap: [0, 0.01]
+				boundaryGap: [0, 0.01],
+				splitLine:{ 
+					show:false
+				}
 			},
 			yAxis: {
 				type: 'category',
-				data: ['教学','科研','应用']
+				data: [{
+					value:'教学',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'科研',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'应用',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				}]
 			},
 			series: [
 				{
 					name: '互联网师资',
 					type: 'bar',
-					data: [60, 40, 80]
+					data: [60, 40, 80],
+					barWidth : 40,
+					itemStyle: {   
+						normal:{  
+							color: function (params){
+								var colorList = ['#FFA400','#F0563C','#00BECC'];
+								return colorList[params.dataIndex];
+							}
+						},
+					},
 				}
 			]
 		};
-		
 		
 			option2 = {
 			title: {
@@ -245,25 +273,57 @@
 			xAxis: {
 				type: 'value',
 				boundaryGap: [0, 0.01],
-				max: 100
+				max: 100,
+				splitLine:{ 
+					show:false
+				}
 			},
 			yAxis: {
 				type: 'category',
+				/*axisLine:{
+					lineStyle:{
+						width:3
+					}
+				},*/
 				data: [{
 					value:'教学',
-					color:'green'
-				},'科研','应用']
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'科研',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'应用',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				}]
 			},
 			series: [
 				{
 					name: '互联网师资',
 					type: 'bar',
-					data: [50, 60, 55]
+					data: [50, 60, 55],
+					barWidth : 40,
+					itemStyle: {   
+						normal:{  
+							color: function (params){
+								var colorList = ['#FFA400','#F0563C','#00BECC'];
+								return colorList[params.dataIndex];
+							}
+						},
+					},
+					
 				}
 			]
 		};
 		
-        // 使用刚指定的配置项和数据显示图表。
         myChart1.setOption(option1);
 		 myChart2.setOption(option2);
 	</script>
