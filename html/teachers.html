@@ -173,8 +173,9 @@
 				<img src="../images/professor.jpg" alt="" style="margin-top: 60px;"/>
 			</div>
 			<div class="container-fluid separate">传道授业水平</div>
-			<div id="compare" class="container-fluid">
-				（与名牌大学单一师资能力pk图）
+			<div id="compare">
+				<div id="Internet" style="width: 500px; height: 400px"></div>
+				<div id="tradition" style="width: 500px; height: 400px"></div>
 			</div>
 		</div>
 		<footer id="footer">
@@ -183,4 +184,87 @@
 	</body>	
 	<script src="../js/jquery.min.js" type="text/javascript"></script>
 	<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../js/echarts.js" type="text/javascript"></script>
+	<script>
+		var myChart1 = echarts.init(document.getElementById('Internet'));
+		var myChart2 = echarts.init(document.getElementById('tradition'));
+        // 指定图表的配置项和数据
+      
+			option1 = {
+			title: {
+				text: '互联网师资',
+				left:'center'
+			},
+			tooltip: {
+				trigger: 'axis',
+				axisPointer: {
+					type: 'shadow'
+				}
+			},
+			grid: {
+				left: '3%',
+				right: '4%',
+				bottom: '3%',
+				containLabel: true
+			},
+			xAxis: {
+				type: 'value',
+				boundaryGap: [0, 0.01]
+			},
+			yAxis: {
+				type: 'category',
+				data: ['教学','科研','应用']
+			},
+			series: [
+				{
+					name: '互联网师资',
+					type: 'bar',
+					data: [60, 40, 80]
+				}
+			]
+		};
+		
+		
+			option2 = {
+			title: {
+				text: '本科教育师资',
+				left:'center'
+			},
+			tooltip: {
+				trigger: 'axis',
+				axisPointer: {
+					type: 'shadow'
+				}
+			},
+			grid: {
+				left: '3%',
+				right: '4%',
+				bottom: '3%',
+				containLabel: true
+			},
+			xAxis: {
+				type: 'value',
+				boundaryGap: [0, 0.01],
+				max: 100
+			},
+			yAxis: {
+				type: 'category',
+				data: [{
+					value:'教学',
+					color:'green'
+				},'科研','应用']
+			},
+			series: [
+				{
+					name: '互联网师资',
+					type: 'bar',
+					data: [50, 60, 55]
+				}
+			]
+		};
+		
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1);
+		 myChart2.setOption(option2);
+	</script>
 </html>
