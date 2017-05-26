@@ -163,21 +163,57 @@
 							<td id="tabletitle" colspan="4">UI/UE设计师班</td>
 						</tr>
 						<tr>
-							<td class="tablerow2" style="width: 127px;">模块</td>
+							<td class="tablerow2" style="width: 145px;">模块</td>
 							<td class="tablerow2" style="width: 189px;">课程</td>
 							<td class="tablerow2" style="width: 362px;">目标</td>
 							<td class="tablerow2" style="width: 256px;">案例</td>
 						</tr>
 						<tr>
-							<td class="tablerow3" rowspan="2"></td>
-							<td class="tablerow3">素描关系</td>
-							<td class="tablerow3">课程中会强调空间、方位、比例、线条虚实以及剪影问题，同事提高手绘表现能力，为表达无限创意提供绘制能力支持。</td>
-							<td class="tablerow3" rowspan="2">
+							<td class="tablerow3" rowspan="11">Android移动应用开发</td>
+							<td class="tablerow3">Java精化课程</td>
+							<td class="tablerow3">1.Java零起点掌握Java核心语法，编码规划，调试技巧<br />2.Java面向对象编程、面向对象的思想<br />3.Java lang包常用api<br />4.java集合框架、数据结构<br />5.大型企业级数据库Oracle数据库<br />7.</td>
+							<td class="tablerow3" rowspan="11">
 								<img src="#" />
 							</td>
 						</tr>
 						<tr>
-							<td class="tablerow4">速写训练</td>
+							<td class="tablerow4">Java Web训练</td>
+							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
+						</tr>
+						<tr>
+							<td class="tablerow4">Android四大组件和UI开发</td>
+							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
+						</tr>
+						<tr>
+							<td class="tablerow4">Android数据库高级开发</td>
+							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
+						</tr>
+						<tr>
+							<td class="tablerow4">Android多媒体高级开发</td>
+							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
+						</tr>
+						<tr>
+							<td class="tablerow4">Android网络高级开发</td>
+							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
+						</tr>
+						<tr>
+							<td class="tablerow4">Android位置信息GPS开发</td>
+							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
+						</tr>
+						<tr>
+							<td class="tablerow4">Linux、Android基础</td>
+							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
+						</tr>
+						<tr>
+							<td class="tablerow4">Andro NDK高级开发</td>
+							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
+						</tr>
+						<tr>
+							<td class="tablerow4">Android游戏编程</td>
+							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
+						</tr>
+						<tr>
+							<td class="tablerow4">企业级项目实战</td>
 							<td class="tablerow4">素描是传统美术学习的第一步，课程通过绘制几何图形，理解光照射物体时明暗变化的层次关系。</td>
 						</tr>
 					</table>
@@ -411,13 +447,18 @@
 							</tr>
 						</table>
 					</div>
+					<div id="course_contrast">
+						<p>课程含量对比</p>
+						<div id="tablecompare1">
+						</div>
+						<div id="tablevs">对比<br />VS</div>
+						<div id="tablecompare2">
+						</div>
+					</div>
+					
 				</div>
-				<div id="tablecompare1">
-						
-				</div>
-				<div id="tablecompare2">
-						
-				</div>
+				
+				
 			</div>
 		</div>
 		<footer id="footer">
@@ -433,103 +474,108 @@
 
         // 指定图表的配置项和数据
         var data = [{
-				value: 3661,
-				name: '<10w'
+				value: 78,
+				name: '专业技能'
 			}, {
-				value: 5713,
-				name: '10w-50w'
+				value: 17,
+				name: '基础软件'
 			}, {
-				value: 9938,
-				name: '50w-100w'
-			}, {
-				value: 17623,
-				name: '100w-500w'
-			}, {
-				value: 3299,
-				name: '>500w'
+				value: 5,
+				name: '公共课程'
 			}];
 			option1 = {
-			title: {
-				text: '世界人口总量',
-				subtext: '数据来自网络'
-			},
-			tooltip: {
-				trigger: 'axis',
-				axisPointer: {
-					type: 'shadow'
-				}
-			},
-			legend: {
-				data: ['2011年', '2012年']
-			},
-			grid: {
-				left: '3%',
-				right: '4%',
-				bottom: '3%',
-				containLabel: true
-			},
-			xAxis: {
-				type: 'value',
-				boundaryGap: [0, 0.01]
-			},
-			yAxis: {
-				type: 'category',
-				data: ['巴西','印尼','美国','印度','中国','世界人口(万)']
-			},
-			series: [
-				{
-					name: '2011年',
-					type: 'bar',
-					data: [18203, 23489, 29034, 104970, 131744, 630230]
+				backgroundColor: '#fff',
+				title: {
+					text: '互联网+课程结构',
+					x: 'center',
+					y: 'bottom',
+					textStyle: {
+						fontWeight: 'bold',
+						fontSize: 20
+					}
 				},
-				{
-					name: '2012年',
-					type: 'bar',
-					data: [19325, 23438, 31000, 121594, 134141, 681807]
-				}
-			]
-		};
+				tooltip: {
+					show: true,
+					trigger: 'item',
+					formatter: "{b}:  {d}%"
+				},
+				legend: {
+					orient: 'vertical',
+					left:'2%',
+					top: '10%',
+					data: ['专业技能', '基础软件', '公共课程'],
+					itemGap: 30,
+				},
+				series: [{
+					type: 'pie',
+//					roseType : 'radius',
+//					selectedMode: 'single',
+					radius : [0, 130],
+					center : ['55%', '50%'],
+					minAngle : 80,
+					color: ['#c01921', '#eb572f', '#3f3f3f'],
+
+					label: {
+						normal: {
+							position: 'inner',
+							formatter: '{d}%',
+
+							textStyle: {
+								color: '#fff',
+								fontWeight: 'bold',
+								fontSize: 14
+							}
+						}
+					},
+					labelLine: {
+						normal: {
+							show: false
+						}
+					},
+					data: data
+				}]
+			};
 		
 		
 		option2 = {
 			title : {
-				text: '南丁格尔玫瑰图',
-				subtext: '纯属虚构',
-				x:'center'
+				text: '传统院校课程结构',
+				x:'center',
+				y:'bottom',
+				textStyle: {
+						fontWeight: 'bold',
+						fontSize: 20
+					}
 			},
 			tooltip : {
 				trigger: 'item',
-				formatter: "{a} <br/>{b} : {c} ({d}%)"
+				formatter: "{b}: {d}%"
 			},
 			legend: {
-				x : 'center',
-				y : 'bottom',
-				data:['rose1','rose2','rose3','rose4','rose5','rose6','rose7','rose8']
-			},
-			toolbox: {
-				show : true,
-				feature : {
-					mark : {show: true},
-					dataView : {show: true, readOnly: false},
-					magicType : {
-						show: true,
-						type: ['pie', 'funnel']
-					},
-					restore : {show: true},
-					saveAsImage : {show: true}
-				}
+				orient: 'vertical',
+				right:'2%',
+				top: '10%',
+				data:['专业技能','基础软件','公共课程'],
+				itemGap: 30,
 			},
 			calculable : true,
 			series : [
 				{
-					name:'半径模式',
 					type:'pie',
-					radius : [20, 110],
-					center : ['25%', '50%'],
-					roseType : 'radius',
+					radius : [0, 130],
+					center : ['45%', '50%'],
+//					roseType : 'radius',
+					color: ['#c01921', '#eb572f', '#3f3f3f'],
 					label: {
 						normal: {
-							show: false
+							position: 'inner',
+							formatter: '{d}%',
+
+							textStyle: {
+								color: '#fff',
+								fontWeight: 'bold',
+								fontSize: 14
+							}
 						},
 						emphasis: {
 							show: true
@@ -544,33 +590,13 @@
 						}
 					},
 					data:[
-						{value:10, name:'rose1'},
-						{value:5, name:'rose2'},
-						{value:15, name:'rose3'},
-						{value:25, name:'rose4'},
-						{value:20, name:'rose5'},
-						{value:35, name:'rose6'},
-						{value:30, name:'rose7'},
-						{value:40, name:'rose8'}
+						{value:16, name:'专业技能'},
+						{value:19, name:'基础软件'},
+						{value:65, name:'公共课程'},
 					]
 				},
-				/*{
-					name:'面积模式',
-					type:'pie',
-					radius : [30, 110],
-					center : ['75%', '50%'],
-					roseType : 'area',
-					data:[
-						{value:10, name:'rose1'},
-						{value:5, name:'rose2'},
-						{value:15, name:'rose3'},
-						{value:25, name:'rose4'},
-						{value:20, name:'rose5'},
-						{value:35, name:'rose6'},
-						{value:30, name:'rose7'},
-						{value:40, name:'rose8'}
-					]
-				}*/
+				
+				
 			]
 		};
         // 使用刚指定的配置项和数据显示图表。
