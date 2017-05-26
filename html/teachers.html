@@ -174,8 +174,9 @@
 			</div>
 			<div class="container-fluid separate">传道授业水平</div>
 			<div id="compare">
-				<div id="Internet" style="width: 500px; height: 400px"></div>
-				<div id="tradition" style="width: 500px; height: 400px"></div>
+				<div id="Internet" style="width: 400px; height: 300px"></div>
+				<div id="VS">VS</div>
+				<div id="tradition" style="width: 400px; height: 300px"></div>
 			</div>
 		</div>
 		<footer id="footer">
@@ -214,21 +215,36 @@
 			},
 			yAxis: {
 				type: 'category',
-				data: ['教学','科研','应用'],
-				splitLine:{ 
-					show:false
-					}
+				data: [{
+					value:'教学',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'科研',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'应用',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				}]
 			},
 			series: [
 				{
 					name: '互联网师资',
 					type: 'bar',
 					data: [60, 40, 80],
-					barWidth : 60,
+					barWidth : 40,
 					itemStyle: {   
 						normal:{  
 							color: function (params){
-								var colorList = ['#dc3c37','rgb(42,170,227)','rgb(25,46,94)'];
+								var colorList = ['#FFA400','#F0563C','#00BECC'];
 								return colorList[params.dataIndex];
 							}
 						},
@@ -264,21 +280,41 @@
 			},
 			yAxis: {
 				type: 'category',
+				/*axisLine:{
+					lineStyle:{
+						width:3
+					}
+				},*/
 				data: [{
 					value:'教学',
-					color:'green'
-				},'科研','应用']
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'科研',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'应用',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				}]
 			},
 			series: [
 				{
 					name: '互联网师资',
 					type: 'bar',
 					data: [50, 60, 55],
-					barWidth : 60,
+					barWidth : 40,
 					itemStyle: {   
 						normal:{  
 							color: function (params){
-								var colorList = ['rgb(164,205,238)','rgb(42,170,227)','rgb(25,46,94)'];
+								var colorList = ['#FFA400','#F0563C','#00BECC'];
 								return colorList[params.dataIndex];
 							}
 						},

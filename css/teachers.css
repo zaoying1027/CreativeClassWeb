@@ -35,6 +35,7 @@
 	font-size: 25px;
 	line-height: 58px;
 	text-align: center;
+	margin-bottom: 40px;
 }
 #firstimg{
 	height: 543px;
@@ -129,17 +130,27 @@
 }
 #compare{
 	margin: 0 auto;
-	height: 543px;
+	width: 920px;
 	position: relative;
 }
 #Internet{
 	float: left;
+	/*margin-left: 80px;*/
 }
 #tradition{
 
 	float: left;
 }
+#VS{
+	float: left;
+	line-height: 300px;
+	text-align: center;
+	margin: auto 55px auto 5px;
+	font-size: 36px;
+	color: red;
+}
 #footer{
+	margin-top: 40px;
 	height: 80px;
 	background: #404040;
 }
