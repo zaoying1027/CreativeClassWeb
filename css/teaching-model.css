@@ -36,17 +36,17 @@
 	text-align: center;
 }
 #firstimg{
-	background: url(../images/redBg2.jpg);
+	background: url(../images/teaching-model/redBg2.jpg);
 	background-size: cover;
 	height: 543px;
 }
 #thirdimg{
-	background: url(../images/redBg.jpg);
+	background: url(../images/teaching-model/redBg.jpg);
 	background-size: cover;
 	height: 543px;
 }
 #secondimg{
-	background:url(../images/blueBg.jpg);
+	background:url(../images/teaching-model/blueBg.jpg);
 	background-size: cover;
 	height: 543px;
 }
