@@ -36,3 +36,27 @@
  	float: right;height: 0;
  	margin-right: -10px;
  	width: 0;}
+.left{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background: #000;
+}
+.right{
+	float:left;
+	width: 200px;
+	height: 200px;
+	background: #000;
+}
+.canvas{
+	float: left;
+}
+.first{
+	margin: 0 auto;
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border: 3px solid #F3DDA4;
+	border-radius: 10px;
+}
