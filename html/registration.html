@@ -6,7 +6,7 @@
 		<link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
 		<link href="../css/common.css" type="text/css" rel="stylesheet"/>
 		<link href="../css/registration.css" type="text/css" rel="stylesheet"/>
-
+		<link href="../css/timeline.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<div class="header">
@@ -33,7 +33,7 @@
 									</a>
 							</li>
 							<li class="nav1">
-									<a href="teaching model.html" target="_blank">
+									<a href="teaching-model.html" target="_blank">
 										<div>
 											<img class="on" src="../images/head2-2.png">
 											<img class="in" src="../images/head2-1.png">
@@ -76,7 +76,7 @@
 								  </a>
 							  </li>
 							  <li>
-								  <a href="teaching model.html" target="_blank">
+								  <a href="teaching-model.html" target="_blank">
 										<p><span class="dhtitle">教学模式</span></p>
 								  </a>
 							   </li>
@@ -114,15 +114,164 @@
 				<div class="ribbon-right"></div>
  			</div>
 			<div class="excel text-center">
-				<h1 class="text-center">
-					报名流程
-				</h1>
-				<div class="text-center">
-					<img src="../images/baomingliucheng.png">
-				</div>
-			</div>
+				<section id="cd-timeline" class="cd-container">
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-picture">
+							<span style="color: #FFF;">1</span>
+						</div><!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>报 名</h2>
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-movie">
+							<span style="color: #FFF;">2</span>
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>考 核</h2>
+							
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-picture">
+							<span style="color: #FFF;">3</span>
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>筛 选</h2>
+							
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-location">
+							<span style="color: #FFF;">4</span>
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>跟班学习</h2>
+							
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-location">
+							<span style="color: #FFF;">5</span>
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>办理转专业手续</h2>
+							
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+				</section> 
+				<!--<div class="text-center">
+					<img src="../images/BM.png">
+				</div>-->
+				<!--<canvas id="canvas" width="950px" height="658"></canvas>-->
+			</div> 
 		</div>
 	</body>	
 	<script src="../js/jquery.min.js" type="text/javascript"></script>
 	<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+	<!--<script type="text/javascript" src="../js/modernizr.js"></script>
+	<script>
+$(function(){
+	var $timeline_block = $('.cd-timeline-block');
+	//hide timeline blocks which are outside the viewport
+	$timeline_block.each(function(){
+		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+		}
+	});
+	//on scolling, show/animate timeline blocks when enter the viewport
+	$(window).on('scroll', function(){
+		$timeline_block.each(function(){
+			if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+				$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+			}
+		});
+	});
+});
+</script>-->
+	<script>
+		var dom=document.getElementById("canvas");
+		var text=dom.getContext("2d");
+		text.beginPath();
+		text.moveTo(475,0);
+		text.lineTo(475,68);
+		text.stroke();
+		text.beginPath();
+		text.arc(475,88,20,0,2*Math.PI);
+		text.font="20px Georgia";
+		text.fillText("1",471,94);
+		text.stroke();
+		/*第一条线和第一个圈*/
+		
+		text.beginPath();
+		text.moveTo(495,88);
+		text.lineTo(565,88);
+		text.stroke();
+		text.beginPath();
+		text.rect(565,34,200,100);
+		text.stroke();
+		/*第一个横线和第一个矩形框*/
+		
+		
+		text.beginPath();
+		text.moveTo(475,108);
+		text.lineTo(475,244);
+		text.stroke();
+		text.beginPath();
+		text.arc(475,264,20,0,2*Math.PI);
+		text.font="20px Georgia";
+		text.fillText("2",471,270);
+		text.stroke();
+		/*第二条线和第二个圈*/
+		
+		text.beginPath();
+		text.moveTo(455,264);
+		text.lineTo(385,264);
+		text.stroke();
+		text.beginPath();
+		text.rect(185,210,200,100);
+		text.stroke();
+		/*第二个横线和第二个矩形框*/
+		
+		text.beginPath();
+		text.moveTo(475,283);
+		text.lineTo(475,406);
+		text.stroke();
+		text.beginPath();
+		text.arc(475,426,20,0,2*Math.PI);
+		text.font="20px Georgia";
+		text.fillText("3",471,431);
+		text.stroke();
+		/*第三条线和第三个圈*/
+		
+		text.beginPath();
+		text.moveTo(475,426);
+		text.lineTo(545,426);
+		text.stroke();
+		text.beginPath();
+		text.rect(545,372,200,100);
+		text.stroke();
+		/*第三个横线和第三个矩形框*/
+		
+		
+		text.beginPath();
+		text.moveTo(475,446);
+		text.lineTo(475,582);
+		text.stroke();
+		text.beginPath();
+		text.arc(475,602,20,0,2*Math.PI);
+		text.font="20px Georgia";
+		text.fillText("4",470,607);
+		text.stroke();
+		/*第四条线和第四个圈*/
+	</script>
 </html>
