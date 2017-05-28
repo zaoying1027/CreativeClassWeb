@@ -246,6 +246,11 @@
 	background: #ccc;
 	height: 100px;
 }
+.example{
+	width: 255px;
+	height: 200px;
+	margin-top: 200px;
+}
 .class_schedule{
 	float: left;
 }
