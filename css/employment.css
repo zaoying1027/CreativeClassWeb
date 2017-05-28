@@ -128,10 +128,24 @@
 #sector6{
 	background: white;
 }
-
-
-
-
+.class_schedule{
+	clear: both;
+}
+.class_schedule li{
+	display: block;
+	float: left;
+	list-style: none;
+	width: 200px;
+	height: 300px;
+	margin-right: 21px;
+	background-size: cover;
+	text-align: center;
+}
+.class_schedule li a{
+	color: #cb3d4d;
+    font-size: 22px;
+    font-weight: bold;
+}
 
 #footer{
 	height: 80px;
