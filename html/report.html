@@ -202,37 +202,51 @@
 	<script>
 		var myChart = echarts.init(document.getElementById('salary')); 
 		 var option = {
-                    tooltip: {
-                        show: true
-                    },
-                    
-                    xAxis : [
-                        {
-                            type : 'category',
-                            data : [{
-                            	value:'北京',
-								textStyle: {
-								fontSize: 18,
-								color: '#'
-								}
-                            },"上海","广州","深圳","杭州","长沙","成都","武汉","重庆","南京"]
-                        }
-                    ],
-                    yAxis : [
-                        {
-                            type : 'value'
-                        }
-                    ],
-                    series : [
-                        {
-                            "name":"销量",
-                            "type":"bar",
-                            "data":[11000, 10000, 9000, 10000, 8000, 9000,7000,8000,10000,9000]
-                        }
-                    ]
-                };
-        
-                // 为echarts对象加载数据 
+    tooltip : {
+        trigger: 'axis',
+        axisPointer : {            
+            type : 'shadow'       
+        }
+    },
+    legend: {
+        data:['第一个月','第二个月','第三个月','第四个月']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis : [
+        {
+            type : 'category',
+            data : ['北京','上海','广州','深圳','杭州','长沙','成都']
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value'
+        }
+    ],
+    series : [
+        {
+            name:'第一个月',
+            type:'bar',
+            data:[5000, 5100, 5300, 5000, 5500, 5100, 5120]
+        },
+        {
+            name:'第二个月',
+            type:'bar',
+            data:[7000, 7132, 7101, 7134, 7390, 7230, 7210]
+        },
+        {
+            name:'第三个月',
+            type:'bar',
+            data:[10220, 11182, 12191, 11234, 10290, 13330, 12310]
+        }
+    ]
+};
+
                 myChart.setOption(option); 
 	</script>
 </html>
