@@ -36,3 +36,23 @@
  	float: right;height: 0;
  	margin-right: -10px;
  	width: 0;}
+.chargr{
+	clear: both;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.num{
+	float: left;
+	border: 1px solid #000;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+.words{
+	float: left;
+	margin-left: 5px;
+	font-size: 26px;
+}
+
