@@ -6,7 +6,8 @@
 		<link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
 		<link href="../css/common.css" type="text/css" rel="stylesheet"/>
 		<link href="../css/registration.css" type="text/css" rel="stylesheet"/>
-		<link href="../css/timeline.css" rel="stylesheet" type="text/css" />
+		<link href="../css/chinaz.css" rel="stylesheet">
+		
 	</head>
 	<body>
 		<div class="header">
@@ -114,61 +115,64 @@
 				<div class="ribbon-right"></div>
  			</div>
 			<div class="excel text-center">
-				<section id="cd-timeline" class="cd-container">
-					<div class="cd-timeline-block">
-						<div class="cd-timeline-img cd-picture">
-							<span style="color: #FFF;">1</span>
-						</div><!-- cd-timeline-img -->
-
-						<div class="cd-timeline-content">
-							<h2>报 名</h2>
-						</div> <!-- cd-timeline-content -->
-					</div> <!-- cd-timeline-block -->
-
-					<div class="cd-timeline-block">
-						<div class="cd-timeline-img cd-movie">
-							<span style="color: #FFF;">2</span>
-						</div> <!-- cd-timeline-img -->
-
-						<div class="cd-timeline-content">
-							<h2>考 核</h2>
+				<div class="history">
+					<div class="start-history">
+						<p class="cc_history">报名流程</p>
+						<p class="next_history">Registration</p>
+						<div class="history_left">
+							<p class="history_L year2006">
+								<span class="history_2006_span">考核</span>
+								<b class="history_2006_b">
+									<span class="history_l_month">02</span>
+									<span class="history_l_text">对所报名学生进行考核<br/>时点地点另行通知</span>
+								</b>
+							</p>
+							<p class="history_L yearalmost">
+								<span class="history_2006_span">编班</span>
+								<b class="history_2006_b">
+									<span class="history_l_month">04</span>
+									<span class="history_l_text">对于经过筛选的同学编班<br/>所有学生跟班学习</span>
+								</b>
+							</p>
 							
-						</div> <!-- cd-timeline-content -->
-					</div> <!-- cd-timeline-block -->
-
-					<div class="cd-timeline-block">
-						<div class="cd-timeline-img cd-picture">
-							<span style="color: #FFF;">3</span>
-						</div> <!-- cd-timeline-img -->
-
-						<div class="cd-timeline-content">
-							<h2>筛 选</h2>
-							
-						</div> <!-- cd-timeline-content -->
-					</div> <!-- cd-timeline-block -->
-
-					<div class="cd-timeline-block">
-						<div class="cd-timeline-img cd-location">
-							<span style="color: #FFF;">4</span>
-						</div> <!-- cd-timeline-img -->
-
-						<div class="cd-timeline-content">
-							<h2>跟班学习</h2>
-							
-						</div> <!-- cd-timeline-content -->
-					</div> <!-- cd-timeline-block -->
-
-					<div class="cd-timeline-block">
-						<div class="cd-timeline-img cd-location">
-							<span style="color: #FFF;">5</span>
-						</div> <!-- cd-timeline-img -->
-
-						<div class="cd-timeline-content">
-							<h2>办理转专业手续</h2>
-							
-						</div> <!-- cd-timeline-content -->
-					</div> <!-- cd-timeline-block -->
-				</section> 
+							<p class="history_L yearalmost">
+								<span class="history_2006_span">学习</span>
+								<b class="history_2006_b yellow">
+									<span class="history_l_month">06</span>
+									<span class="history_l_text full">所有流程完毕<br/>正式成为创新班的一员</span>
+								</b>
+							</p>
+						</div>
+						<div class="history-img">
+							<img class="history_img" src="../images/history.png" alt="">
+						</div>
+						<div class="history_right">
+							<p class="history_R history_r_2005">
+								<span class="history_2005_span">报名</span>
+								<b class="history_2005_b">
+									<span class="history_r_month">01</span>
+									<span class="history_r_text">网上报名<br/>现场报名</span>
+								</b>
+							</p>
+							<p class="history_R yearalmostr">
+								<span class="history_2005_span">筛选</span>
+								<b class="history_2005_b">
+									<span class="history_r_month">03</span>
+									<span class="history_r_text">对参与考核的同学进行筛选<br/>筛选之后通知学生</span>
+								</b>
+							</p>
+							<p class="history_R yearalmostr">
+								<span class="history_2005_span">转系</span>
+								<b class="history_2005_b">
+									<span class="history_r_month">05</span>
+									<span class="history_r_text">非计算机专业统一办理转系手续<br/>计算机专业的统一办理转班手续</span>
+								</b>
+							</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
 				<!--<div class="text-center">
 					<img src="../images/BM.png">
 				</div>-->
@@ -178,26 +182,28 @@
 	</body>	
 	<script src="../js/jquery.min.js" type="text/javascript"></script>
 	<script src="../js/bootstrap.min.js" type="text/javascript"></script>
-	<!--<script type="text/javascript" src="../js/modernizr.js"></script>
+	<script type="text/javascript" src="../js/jquery.slidy.js"></script>
 	<script>
-$(function(){
-	var $timeline_block = $('.cd-timeline-block');
-	//hide timeline blocks which are outside the viewport
-	$timeline_block.each(function(){
-		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
-			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+		$(window).scroll(function(){
+    	var msg = $(".history-img");
+    	var item = $(".history_L");
+    	var items = $(".history_R");
+    	var windowHeight = $(window).height();
+    	var Scroll = $(document).scrollTop();
+    	if((msg.offset().top - Scroll -windowHeight)<=0){
+			msg.fadeIn(1500);
 		}
-	});
-	//on scolling, show/animate timeline blocks when enter the viewport
-	$(window).on('scroll', function(){
-		$timeline_block.each(function(){
-			if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
-				$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
-			}
-		});
-	});
-});
-</script>-->
+    	for(var i=0;i<item.length;i++){
+			if(($(item[i]).offset().top - Scroll - windowHeight)<= -100){
+				$(item[i]).animate({marginRight:'0px'},'50','swing');
+        	}
+		}
+			for(var i=0;i<items.length;i++){
+				if(($(items[i]).offset().top - Scroll - windowHeight)<= -100){
+					$(items[i]).animate({marginLeft:'0px'},'50','swing');
+				}
+			}});
+	</script>
 	<script>
 		var dom=document.getElementById("canvas");
 		var text=dom.getContext("2d");
