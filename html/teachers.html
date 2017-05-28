@@ -25,8 +25,8 @@
 							<li class="nav1">
 									<a href="index.html" target="_blank">
 										<div>
-											<img class="on" src="../images/head1-2.png" style="display: none;">
-											<img src="../images/head1-1.png" style="display: inline;">
+											<img class="on" src="../images/head1-2.png" >
+											<img class="in" src="../images/head1-1.png" >
 										</div>
 										<p>课程特色</p>
 									</a>
@@ -34,8 +34,8 @@
 							<li class="nav1">
 									<a href="teaching-model.html" target="_blank">
 										<div>
-											<img class="on" src="../images/head2-2.png" style="display: none;">
-											<img src="../images/head2-1.png" style="display: inline;">
+											<img class="on" src="../images/head2-2.png" >
+											<img class="in" src="../images/head2-1.png" >
 										</div>
 										<p>教学模式</p>
 									</a>
@@ -43,8 +43,8 @@
 							<li class="nav1">
 									<a href="teachers.html" target="_blank">
 										<div>
-											<img class="on" src="../images/head3-2.png" style="display: none;">
-											<img src="../images/head3-1.png" style="display: inline;">
+											<img class="on" src="../images/head3-2.png" >
+											<img class="in" src="../images/head3-1.png" >
 										</div>
 										<p>豪华师资</p>
 									</a>
@@ -52,8 +52,8 @@
 							<li class="nav1">
 									<a href="employment.html" target="_blank">
 										<div>
-											<img class="on" src="../images/head4-2.png" style="display: none;">
-											<img src="../images/head4-1.png" style="display: inline;">
+											<img class="on" src="../images/head4-2.png" >
+											<img class="in" src="../images/head4-1.png" >
 										</div>
 										<p>就业优势</p>
 									</a>
@@ -117,7 +117,6 @@
 				<div class="texts"><p>优秀的师资团队需要保持一定的专兼职比例，最好由大学讲师、行业专家组成。这样不同的老师各自有所擅长，可以完成对学员不同阶段的授课和作业、作品的指导。</p></div>
 				<img src="../images/teachers/t1.png" alt="" />
 			</div>
-			<div class="container-fluid separate">师资构成</div>
 			<div class="container-fluid top"><div class="tl">行业专家</div></div>
 			<div id="secondimg" class="container-fluid">
 				<div class="text"><p>为了让学员在校学习阶段就能接触到最前沿的知识，
@@ -217,6 +216,24 @@
 			yAxis: {
 				type: 'category',
 				data: [{
+					value:'礼仪',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'工程',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'管理',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
 					value:'教学',
 					textStyle: {
 					fontSize: 18,
@@ -233,19 +250,20 @@
 					textStyle: {
 					fontSize: 18,
 					color: '#47484B'
+				},
 				}
-				}]
+				]
 			},
 			series: [
 				{
 					name: '互联网师资',
 					type: 'bar',
-					data: [60, 40, 80],
-					barWidth : 40,
+					data: [50,65,60,70,60,80],
+					barWidth : 25,
 					itemStyle: {   
 						normal:{  
 							color: function (params){
-								var colorList = ['#FFA400','#F0563C','#00BECC'];
+								var colorList = ['#CCFF66','#6699FF','#FFFF66','#FFA400','#F0563C','#00BECC'];
 								return colorList[params.dataIndex];
 							}
 						},
@@ -281,12 +299,25 @@
 			},
 			yAxis: {
 				type: 'category',
-				/*axisLine:{
-					lineStyle:{
-						width:3
-					}
-				},*/
 				data: [{
+					value:'礼仪',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'工程',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
+					value:'管理',
+					textStyle: {
+					fontSize: 18,
+					color: '#47484B'
+				}
+				},{
 					value:'教学',
 					textStyle: {
 					fontSize: 18,
@@ -303,19 +334,20 @@
 					textStyle: {
 					fontSize: 18,
 					color: '#47484B'
+				},
 				}
-				}]
+				]
 			},
 			series: [
 				{
 					name: '互联网师资',
 					type: 'bar',
-					data: [50, 60, 55],
-					barWidth : 40,
+					data: [50,55,60,55,60,55],
+					barWidth : 25,
 					itemStyle: {   
 						normal:{  
 							color: function (params){
-								var colorList = ['#FFA400','#F0563C','#00BECC'];
+								var colorList = ['#CCFF66','#6699FF','#FFFF66','#FFA400','#F0563C','#00BECC'];
 								return colorList[params.dataIndex];
 							}
 						},

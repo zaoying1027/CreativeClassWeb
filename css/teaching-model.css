@@ -4,7 +4,6 @@
 	font-family: "微软雅黑";
 }
 #headimg{
-	margin-top: 15px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/bannerBg.jpg") no-repeat scroll center top;
 }
@@ -53,6 +52,14 @@
 #compare{
 	height: 543px;
 	text-align: center;
+	position: relative;
+}
+#bg{
+	position: absolute;
+	width: 48%;
+	background-color: #000;
+    height: 100%;
+    opacity: 0.2;
 }
 #compare p{
 	font-size: 36px;
@@ -66,6 +73,15 @@
 #works{
 	text-align: center;
 	height: 543px;
+}
+#works ul{
+	display: block;
+	width: 1080px;
+	margin: 60px auto;
+}
+#works ul li{
+	padding-right: 16px;
+	float: left;
 }
 #footer{
 	height: 80px;
