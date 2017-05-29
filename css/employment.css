@@ -81,8 +81,9 @@
 }
 #sector3{
 	height: 500px;
-	/*background: url(../images/employee/Ered.jpg);*/
-	background-size: contain;
+	/*background-color: #EAEAEA;*/
+	background: url(../images/employee/Eblue.png);
+	background-size: cover;
 }
 
 #sector3_img1,#sector3_img2{
