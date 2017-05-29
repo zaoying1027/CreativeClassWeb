@@ -3,7 +3,7 @@
 	width: 1050px;
 	border:2px solid #1B6D85;
 	padding-bottom: 5%;
-	
+	margin-bottom: 50px;
 }
 .ribbon{
 	margin-top: -25px;
@@ -59,4 +59,11 @@
 	text-align: center;
 	border: 3px solid #F3DDA4;
 	border-radius: 10px;
+}
+#firstLine{
+	margin-top: 10%;
+	margin-bottom: 6%;
+}
+#botton{
+	margin-top: 5%;
 }

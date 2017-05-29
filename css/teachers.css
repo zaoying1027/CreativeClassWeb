@@ -4,7 +4,6 @@
 	font-family: "微软雅黑";
 }
 #headimg{
-	margin-top: 15px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/bannerBg.jpg") no-repeat scroll center top;
 }
@@ -32,7 +31,8 @@
 	background: url(../images/h1Bg.jpg) repeat-x;
 	color: #cf0f0f;
 	height:58px;
-	font-size: 25px;
+	font-size: 26px;
+	font-weight: bold;
 	line-height: 58px;
 	text-align: center;
 	
@@ -61,7 +61,7 @@
 }
 .tl{
 	margin-top: 30px;
-	margin-left:44%;
+	margin-left:45%;
 	text-align: center;
 	height: 60px;
 	line-height: 60px;
@@ -78,13 +78,15 @@
 	text-align: left;
 	margin: 20px auto;
     overflow: hidden;
-    width: 600px;
+    width: 630px;
 	color: #000000;
+	text-indent:2em;
 	font-weight: bold;
 	font-size: 16px;
 }
 .text{
 	margin: 60px auto;
+	font-weight: bold;
 	font-size: 16px;
 	width: 800px; 
 	text-indent:2em;

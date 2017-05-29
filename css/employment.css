@@ -9,7 +9,7 @@
 	margin: 0px;
 	padding: 15px 0;
     font-size: 26px;
-    font-weight: normal;
+    font-weight: bold;
     color: #cf0f0f;
     text-align: center;
     background: url(../images/h1Bg.jpg) repeat-x;
@@ -81,8 +81,9 @@
 }
 #sector3{
 	height: 500px;
-	/*background: url(../images/employee/Ered.jpg);*/
-	background-size: contain;
+	/*background-color: #EAEAEA;*/
+	background: url(../images/employee/Eblue.png);
+	background-size: cover;
 }
 
 #sector3_img1,#sector3_img2{
@@ -128,11 +129,28 @@
 #sector6{
 	background: white;
 }
-
-
-
-
-
+.class_schedule{
+	clear: both;
+}
+.class_schedule li{
+	display: block;
+	float: left;
+	list-style: none;
+	width: 200px;
+	height: 300px;
+	margin-right: 21px;
+	background-size: cover;
+	text-align: center;
+}
+.class_schedule li a{
+	color: #cb3d4d;
+    font-size: 22px;
+    font-weight: bold;
+}
+.class_schedule li span{
+	display: block;
+	font-size: 10px;
+}
 #footer{
 	height: 80px;
 	background: #404040;
