@@ -30,8 +30,9 @@
 	background: url(../images/h1Bg.jpg) repeat-x;
 	color: #cf0f0f;
 	height:58px;
-	font-size: 25px;
+	font-size: 26px;
 	line-height: 58px;
+	font-weight: bold;
 	text-align: center;
 }
 #firstimg{
