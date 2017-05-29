@@ -31,7 +31,7 @@
 	background: url(../images/h1Bg.jpg) repeat-x;
 	color: #cf0f0f;
 	height:58px;
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: bold;
 	line-height: 58px;
 	text-align: center;
@@ -78,13 +78,15 @@
 	text-align: left;
 	margin: 20px auto;
     overflow: hidden;
-    width: 600px;
+    width: 630px;
 	color: #000000;
+	text-indent:2em;
 	font-weight: bold;
 	font-size: 16px;
 }
 .text{
 	margin: 60px auto;
+	font-weight: bold;
 	font-size: 16px;
 	width: 800px; 
 	text-indent:2em;
