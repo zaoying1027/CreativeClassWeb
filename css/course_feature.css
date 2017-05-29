@@ -1,3 +1,6 @@
+body{
+	font-family: "微软雅黑";
+}
 .wrap{
 	width: 935px;
     margin: 0px auto;
@@ -197,34 +200,48 @@
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(2) div:nth-of-type(1){
-	background: url(../images/gongsi2.jpg) no-repeat;
+	background: url(../images/course_fea_img/gongsi2.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(2) div:nth-of-type(2){
-	background: url(../images/gongsi5.jpg) no-repeat;
+	background: url(../images/course_fea_img/gongsi5.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(2) div:nth-of-type(3){
-	background: url(../images/gongsi4.jpg) no-repeat;
+	background: url(../images/course_fea_img/gongsi4.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(3) div:nth-of-type(1){
-	background: url(../images/teambition.jpg) no-repeat;
+	background: url(../images/course_fea_img/teambition.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(3) div:nth-of-type(2){
-	background: url(../images/github.png) no-repeat;
+	background: url(../images/course_fea_img/github.png) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(3) div:nth-of-type(3){
-	background: url(../images/sourcetree.jpg) no-repeat;
+	background: url(../images/course_fea_img/sourcetree.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 #sector6{
 	background: white;
 }
 #table1{
+	text-align: center;
 	border: white;
+}
+#table1 td{
+	padding: 10px;
+}
+.text_left{
+	text-align: left;
+}
+.font_1{
+	font-weight: bold;
+	font-size: 18px;
+}
+.font_2{
+	font-weight: bold;
 }
 #tabletitle{
 	background: #242424;
@@ -246,11 +263,16 @@
 	background: #ccc;
 	height: 100px;
 }
-.example{
+.example:nth-of-type(1){
+	width: 255;
+	height: 350;
+}
+.example:nth-of-type(2){
 	width: 255px;
 	height: 200px;
 	margin-top: 200px;
 }
+
 .class_schedule{
 	float: left;
 }
