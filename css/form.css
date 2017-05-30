@@ -2,8 +2,8 @@
 	margin-top: 5%;
 	width: 1050px;
 	border:2px solid #1B6D85;
-	padding-bottom: 5%;
-	
+	padding-bottom: 2%;
+	margin-bottom: 5%;
 }
 .same{
 	
@@ -54,7 +54,7 @@
  .ribbon-left{
  	display: block;
  	border-left: 10px solid white;
- 	border-top: 8px solid #1B6D85;
+ 	border-top: 8px solid #E4393C;
  	float: left;
  	height: 0;
  	margin-left: -10px;
@@ -62,7 +62,7 @@
  .ribbon-right{
  	display: block;
  	border-right: 10px solid white;
- 	border-top: 8px solid #1B6D85;
+ 	border-top: 8px solid #E4393C;
  	float: right;height: 0;
  	margin-right: -10px;
  	width: 0;}
