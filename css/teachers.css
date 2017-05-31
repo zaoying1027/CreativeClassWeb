@@ -135,12 +135,12 @@
 }
 #compare{
 	margin: 40px auto;
-	width: 1150px;
+	width: 1200px;
 	position: relative;
 }
 #Internet{
 	float: left;
-	/*margin-left: 80px;*/
+	margin-left: 108px;
 }
 #tradition{
 
@@ -150,7 +150,7 @@
 	float: left;
 	line-height: 300px;
 	text-align: center;
-	margin: auto 55px auto 5px;
+	margin: auto 55px auto -40px;
 	font-size: 36px;
 	color: red;
 }
