@@ -85,6 +85,18 @@
 	background:url("../images/sprites.png") center;
 	background-position:0 -1300px
 }
+.blue {
+	background-position:0 -1400px!important
+}
+.blue_R {
+	background-position:0 -1500px!important
+}
+.yellow {
+	background-position:0 -1600px!important
+}
+.yellow_R {
+	background-position:0 -1700px!important
+}
 .history_r_month {
 	float:left;
 	color:#FFF;
