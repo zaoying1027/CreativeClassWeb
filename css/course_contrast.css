@@ -1,9 +1,13 @@
+
 .wrap{
 	width: 935px;
     margin: 0px auto;
     overflow: hidden;
     padding-top: 40px;
     padding-bottom: 60px;
+}
+.table_title{
+	font-family:"微软雅黑";
 }
 #ordinaryclass{
 	margin: auto;
