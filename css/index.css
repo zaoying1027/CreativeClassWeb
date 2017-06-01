@@ -312,5 +312,8 @@ a:hover{
 	float: left;
 	margin-left: 40px;
 }
-
+.playVideo{
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
 
