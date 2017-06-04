@@ -103,7 +103,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid" >
+		<div>
 			<div id="sector1">
 				<div id="headimg" class="container-fluid">
 					<ul>
@@ -378,7 +378,7 @@
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
-								<td class="tableBbgcolor2">作业</td>
+								<td class="tableBbgcolor2">实践</td>
 								<td></td>
 							</tr>
 							<tr class="tableABheight">
@@ -387,7 +387,7 @@
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
-								<td class="tableBbgcolor2">作业</td>
+								<td class="tableBbgcolor2">实践</td>
 								<td></td>
 							</tr>
 							<tr class="tableABheight2">  
@@ -407,7 +407,7 @@
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
-								<td class="tableBbgcolor2">作业</td>
+								<td class="tableBbgcolor2">实践</td>
 								<td></td>
 							</tr>
 							<tr class="tableABheight">
@@ -416,7 +416,7 @@
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
-								<td class="tableBbgcolor2">作业</td>
+								<td class="tableBbgcolor2">实践</td>
 								<td></td>
 							</tr>
 							<tr class="tableABheight"> 
@@ -425,7 +425,7 @@
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
 								<td class="tableBbgcolor1">上课</td>
-								<td class="tableBbgcolor2">作业</td>
+								<td class="tableBbgcolor2">实践</td>
 								<td></td>
 							</tr>
 							<tr class="tableABheight2"> 
@@ -440,21 +440,21 @@
 							</tr>
 							<tr class="tableABheight"> 
 								<td rowspan="2">晚上</td>
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
 								<td></td>
 							</tr>
 							<tr class="tableABheight">
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
-								<td class="tableBbgcolor2">作业</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
+								<td class="tableBbgcolor2">实践</td>
 								<td></td>
 							</tr>
 						</table>
@@ -486,13 +486,13 @@
 
         // 指定图表的配置项和数据
         var data = [{
-				value: 78,
+				value: 40,
 				name: '专业技能'
 			}, {
-				value: 17,
+				value: 30,
 				name: '基础软件'
 			}, {
-				value: 5,
+				value: 30,
 				name: '公共课程'
 			}];
 			option1 = {
@@ -520,8 +520,6 @@
 				},
 				series: [{
 					type: 'pie',
-//					roseType : 'radius',
-//					selectedMode: 'single',
 					radius : [0, 130],
 					center : ['55%', '50%'],
 					minAngle : 80,
@@ -537,18 +535,6 @@
 							}
 			            }
 			        },
-//					label: {
-//						normal: {
-//							position: 'inner',
-//							formatter: '{d}%',
-//
-//							textStyle: {
-//								color: '#fff',
-//								fontWeight: 'bold',
-//								fontSize: 14
-//							}
-//						}
-//					},
 					labelLine: {
 			            normal: {
 			                lineStyle: {
@@ -601,21 +587,6 @@
 							}
 			            }
 			        },
-//					label: {
-//						normal: {
-//							position: 'inner',
-//							formatter: '{d}%',
-//
-//							textStyle: {
-//								color: '#fff',
-//								fontWeight: 'bold',
-//								fontSize: 14
-//							}
-//						},
-//						emphasis: {
-//							show: true
-//						}
-//					},
 					lableLine: {
 						normal: {
 							show: false
@@ -625,9 +596,9 @@
 						}
 					},
 					data:[
-						{value:16, name:'专业技能'},
-						{value:19, name:'基础软件'},
-						{value:65, name:'公共课程'},
+						{value:30, name:'专业技能'},
+						{value:20, name:'基础软件'},
+						{value:50, name:'公共课程'},
 					]
 				},
 				

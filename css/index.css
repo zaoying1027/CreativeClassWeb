@@ -316,4 +316,18 @@ a:hover{
 	margin: 0 auto;
 	margin-bottom: 30px;
 }
-
+.environment{
+	width: 1000px;
+	height: 480px;
+}
+.learnRow{
+	clear: both;
+}
+.learnRow div{
+	width: 200px;
+	height: 160px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	float: left;
+}
