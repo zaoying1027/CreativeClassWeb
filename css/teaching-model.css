@@ -38,7 +38,6 @@
 #firstimg{
 	height: 543px;
 	box-sizing: border-box;
-	border-radius: 24px;
 	background-color: #e4e6e8;
 }
 #thirdimg{
@@ -75,8 +74,19 @@
 	width: 424px;
 	height: 543px;
 	float: left;
-	background: #EC0E11;
 	margin-left: 150px;
+	color: #fff;
+}
+.Wtitle{
+  font-size: 36px;
+  line-height: 48px;
+  max-height: 96px;
+  margin-top:130px;
+}
+.Wtext{
+	font-size: 16px;
+  font-weight: 200;
+  line-height: 32px;
 }
 .peitu{
 	float: left;

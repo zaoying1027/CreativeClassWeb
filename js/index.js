@@ -44,7 +44,7 @@ function draw2(){
 	text.font="20px Georgia";
 	text.textAlign="center";
 	text.fillStyle="#504E4E";
-	text.fillText("实习基地",100,86);
+	text.fillText("健康辅导室",100,86);
 }
 function draw3(){
 	var dom=document.getElementById("pic3");
@@ -62,7 +62,7 @@ function draw3(){
 	text.font="20px Georgia";
 	text.textAlign="center";
 	text.fillStyle="#504E4E";
-	text.fillText("创新实验室",100,86);
+	text.fillText("创业风暴室",100,86);
 }
 function draw4(){
 	var dom=document.getElementById("pic4");
@@ -80,7 +80,7 @@ function draw4(){
 	text.font="20px Georgia";
 	text.textAlign="center";
 	text.fillStyle="#504E4E";
-	text.fillText("专业机房",100,86);
+	text.fillText("公共机房",100,86);
 }
 function draw5(){
 	var dom=document.getElementById("pic5");
@@ -98,7 +98,7 @@ function draw5(){
 	text.font="20px Georgia";
 	text.textAlign="center";
 	text.fillStyle="#504E4E";
-	text.fillText("实习基地",100,86);
+	text.fillText("专业机房",100,86);
 }
 function draw6(){
 	var dom=document.getElementById("pic6");
