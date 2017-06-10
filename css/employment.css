@@ -35,7 +35,7 @@
 
 #headimg{
 	height: 484px;
-    background: rgba(0, 0, 0, 0) url(../images/bannerBg.jpg) no-repeat scroll center top;
+    background: rgba(0, 0, 0, 0) url(../images/employee/bannerBg.png) no-repeat scroll center top;
 }
 #headimg ul{
 	width: 900px;
@@ -66,26 +66,23 @@
 	width: 100%;
 	color: #fff;
 	height: 500px;
-	/*background:url(../images/employee/Eblue.png);*/
-	background-size: 100% 100%;
+	background-color:#083230;
 	position: relative;
 }
 .text2{
 	margin: auto;
 	padding-top: 20px;
 	margin-bottom: 30px;
-	width: 800px;
+	width: 700px;
 	font-size: 16px;
 	line-height: 22px;
 	color: #fff;
 }
 #sector3{
 	height: 500px;
-	/*background-color: #EAEAEA;*/
 	background: url(../images/employee/Eblue.png);
 	background-size: cover;
 }
-
 #sector3_img1,#sector3_img2{
 	float: left;
 	margin: 5px;
