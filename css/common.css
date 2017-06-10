@@ -8,7 +8,7 @@ body {
     height: 153px;
 }
 .logo {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .fl {
     float: left;
@@ -80,7 +80,7 @@ ul {
 	visibility: hidden;
 }
 .headwrap {
-    width: 1052px;
+    width: 980px;
     margin: 0 auto;
     zoom: 1;
 }
