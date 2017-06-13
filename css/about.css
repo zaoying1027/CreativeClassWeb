@@ -16,22 +16,22 @@
 	text-align: center;
 	font-weight: 500;
 	width: 500px;
-	background-color: #3a539b;
-	float: right;
+	background-color: #02335c;
+	float: left;
 }
 .clear{
 	clear: both;
 }
 h1{
 	font-size: 24px;
-	color: #3a539b;
+	color: #02335c;
 }
 .text p{
 	padding: 20px;
 }
 #footer{
 	margin-top: 80px;
-	background-color:#3a539b ;
+	background-color:#02335c ;
 	height: 900px;
 	text-align: center;
 	color: white;
@@ -43,4 +43,10 @@ h1{
 #footer table{
 	width: 450px;
 	margin: auto;
+}
+.code{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	margin-top: 50px;
 }

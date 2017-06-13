@@ -10,7 +10,7 @@
 	padding: 15px 0;
     font-size: 26px;
     font-weight: bold;
-    color: #233f90;
+    color: #02335c;
     text-align: center;
     background: url(../images/h1Bg.jpg) repeat-x;
 }
@@ -81,14 +81,13 @@
 	-o-transform:rotate(-7deg); 	/* Opera */
 }
 #sector2{
-	background: #fff;
+	background: white;
 }
 #sector2_img{
 	margin: auto;
 	width: 100%;
-	color: #fff;
 	height: 500px;
-	background:#01335b;
+	background:white;
 	position: relative;
 }
 .text2{
@@ -98,9 +97,9 @@
 	width: 700px;
 	font-size: 16px;
 	line-height: 30px;
-	color: #fff;
 }
 #sector3{
+	margin-bottom: 80px;
 	height: 500px;
 	background: url(../images/employee/Eblue.png);
 	background-size: cover;
@@ -162,7 +161,7 @@
 	text-align: center;
 }
 .class_schedule li a{
-	color: #cb3d4d;
+	color: #02335c;
     font-size: 22px;
     font-weight: bold;
 }
@@ -177,14 +176,14 @@
 .center{
 	position: absolute;
 	left: 0px;
-	top: 20px;
+	top: 24px;
 	width: 100%;
-	background: #004658;
-	height:8px;
+	background: #02335c;
+	height:3px;
 	z-index: -9999;
 }
 .separate{
-	margin-top: 30px;
+	margin: 50px 0px 40px 0px;
 	position: relative;
 	height:50px;
 }
@@ -194,10 +193,25 @@
 	height: 50px;
 	line-height: 50px;
 	width: 160px;
-	background-color:#004658;
+	background-color:#02335c;
 	color: #fff;
 	font-size: 22px;
 	font-weight:bold;
 	border-radius: 15px;
 	margin: auto;
+}
+.tl1{
+	width: 200px;
+}
+.tl2{
+	width: 205px;
+}
+.tl3{
+	width: 560px;
+}
+.tl4{
+	width: 180px;
+}
+.tl5{
+	width: 155px;
 }

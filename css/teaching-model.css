@@ -4,6 +4,7 @@
 	font-family: "微软雅黑";
 }
 #headimg{
+	margin-top: 10px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/teaching-model/bannerBg.png") no-repeat scroll center top;
 }
@@ -49,23 +50,11 @@
 	-webkit-transform:rotate(-7deg); /* Safari 和 Chrome */
 	-o-transform:rotate(-7deg); 	/* Opera */
 }
-.separate{
-	background: url(../images/h1Bg.jpg) repeat-x;
-	color: #02335b;
-	height:58px;
-	font-size: 26px;
-	line-height: 58px;
-	font-weight: bold;
-	text-align: center;
-}
 #firstimg{
-	padding-top:50px;
-	padding-bottom:80px;
 	box-sizing: border-box;
-	background-color: #e4e6e8;
 }
 #thirdimg{
-	height: 500px;
+	height: 400px;
 }
 .fair{
 	clear: both;
@@ -81,14 +70,13 @@
 	width: 935px;
     margin: 0px auto;
     overflow: hidden;
-    padding-top: 40px;
-    padding-bottom: 60px;
 }
 #secondimg{
 	margin: auto;
 	background:url(../images/teaching-model/EblueBg.jpg);
 	background-size: cover;
 	height: 543px;
+	margin-bottom: 40px;
 }
 .project{
 	width: 1300px;
@@ -193,7 +181,7 @@
 }
  .program-combine{
   width: 980px;
-  height: 482px;
+  height: 400px;
   padding-top: 72px;
   position: relative;
   overflow: hidden;
@@ -410,7 +398,6 @@
 }
 .program-combine-scroll {
     position: absolute;
-    padding-top: 64px;
     left: 0;
     top: 0;
 }
@@ -426,4 +413,43 @@
 .second-con:nth-of-type(2){
 	margin-left: 35px;
 }
-
+.center{
+	position: absolute;
+	left: 0px;
+	top: 24px;
+	width: 100%;
+	background: #02335c;
+	height:3px;
+	z-index: -9999;
+}
+.separate{
+	margin: 50px 0px 40px 0px;
+	position: relative;
+	height:50px;
+}
+.tl{
+	text-align: center;
+	line-height: 50px;
+	width: 160px;
+	background-color:#02335c;
+	color: #fff;
+	font-size: 22px;
+	font-weight:bold;
+	border-radius: 15px;
+	margin: auto;
+}
+.tl1{
+	width: 565px;
+}
+.tl2{
+	width: 445px;
+}
+.tl3{
+	width: 335px;
+}
+.tl4{
+	width: 160px;
+}
+.tl5{
+	width: 150px;
+}
