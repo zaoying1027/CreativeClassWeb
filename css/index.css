@@ -34,7 +34,7 @@
 .about-hxsd .aboutus {
     width: 320px;
     height: 100px;
-    background: url(../images/index/aboutus.jpg);
+    background: url(../images/index/aboutus.png);
     color: #fff;
     font-size: 30px;
     line-height: 100px;
@@ -49,17 +49,22 @@
     padding: 0 0 88px 0;
 }
 .major .title1 {
+	 font-family: "Microsoft Yahei";
     padding: 60px 0 0 0;
 }
 .major li p:nth-of-type(1) {
+	color: #233f90;
     font-size: 16px;
     padding: 4px 0;
 }
 .title1 {
+	 font-family: "Microsoft Yahei";
+	color: #233f90;
     font-size: 40px;
     text-align: center;
 }
 .major li {
+	font-family: "Microsoft Yahei";
     width: 128px;
     margin: 55px 0 0 0px;
     height: 100px;
@@ -135,7 +140,7 @@ a:hover{
 	font-size: 18px;
 }
 .fwzq li:hover p:nth-of-type(1){
-	color:#ef4136;
+	color:#4174ff;
 }
 .fwzq li p:nth-of-type(2){
 	padding: 6px 0 0 0;
@@ -187,7 +192,7 @@ a:hover{
 }
 .newsunit .news-bottom{
 	height: 4px;
-	background: #ef4136;
+	background: #4174ff;
 	width: 100%;
 	top: 160px;
 	position: absolute;
