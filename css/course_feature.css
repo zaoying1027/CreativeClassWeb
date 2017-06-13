@@ -13,7 +13,7 @@ body{
 	padding: 15px 0;
     font-size: 26px;
     font-weight: bold;
-    color: #cf0f0f;
+    color: #02335b;
     text-align: center;
     background: url(../images/h1Bg.jpg) repeat-x;
 }
@@ -81,8 +81,14 @@ body{
 	font-family: '微软雅黑';
     text-decoration: none;
 }
-#headimg ul li a:hover,#headimg ul .checked a{
-	color: #f1f36c;
+#headimg ul li:hover{
+	/*border-top: solid 3px #95eaff;
+	border-bottom: solid 3px #95eaff;*/
+	transform:rotate(-7deg);
+	-ms-transform:rotate(-7deg); 	/* IE 9 */
+	-moz-transform:rotate(-7deg); 	/* Firefox */
+	-webkit-transform:rotate(-7deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-7deg); 	/* Opera */
 }
 #sector2{
 	background: #fff;

@@ -1,0 +1,169 @@
+.wrap{
+	width: 935px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.title{
+	margin: 0px;
+	padding: 15px 0;
+    font-size: 26px;
+    font-weight: bold;
+    color: #cf0f0f;
+    text-align: center;
+    background: url(../images/h1Bg.jpg) repeat-x;
+}
+.text1{
+	margin: auto;
+	margin-bottom: 30px;
+	width: 800px;
+	font-size: 16px;
+	line-height: 22px;
+	color: white;
+}
+
+.text3{
+	margin: auto;
+	margin-bottom: 30px;
+	width: 800px;
+	font-size: 16px;
+	line-height: 22px;
+	color: black;
+	text-align: center;
+}
+
+#headimg{
+	height: 484px;
+    background: rgba(0, 0, 0, 0) url(../images/employee/bannerBg.png) no-repeat scroll center top;
+}
+#headimg ul{
+	width: 980px;
+    display: block;
+    margin:auto;
+    list-style: none;
+    padding: 352px 0 0;
+}
+#headimg ul li{
+	float: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 0 67px;
+}
+#headimg ul li:nth-of-type(2){
+	margin-left: 105px;
+	margin-top: -5px !important;
+}
+#headimg ul li:nth-of-type(3){
+	margin-left: 98px;
+	margin-top: -6px !important;
+}
+#headimg ul li:nth-of-type(4){
+	margin-left: 102px;
+	
+}
+#headimg ul li:nth-of-type(5){
+	margin-left: 130px;
+}
+#headimg ul li a{
+	color: #95eaff;
+	font-family: '微软雅黑';
+    text-decoration: none;
+}
+#headimg ul li a:hover,#headimg ul .checked a{
+	color: #f1f36c;
+}
+#sector2{
+	background: #fff;
+}
+#sector2_img{
+	margin: auto;
+	width: 100%;
+	color: #fff;
+	height: 500px;
+	background-color:#083230;
+	position: relative;
+}
+.text2{
+	margin: auto;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	width: 700px;
+	font-size: 16px;
+	line-height: 22px;
+	color: #fff;
+}
+#sector3{
+	height: 500px;
+	background: url(../images/employee/Eblue.png);
+	background-size: cover;
+}
+#sector3_img1,#sector3_img2{
+	float: left;
+	margin: 5px;
+}
+#sector3_img1 div{
+	width: 180px;
+	height: 140px;
+	background: url(../images/award.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#sector3_img1 div:nth-of-type(1){
+	margin-bottom: 10px;
+}
+#sector3_img2 div{
+	width: 180px;
+	height: 140px;
+	background: url(../images/award.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#sector3_img2 div:nth-of-type(1){
+	margin-bottom: 10px;
+}
+#sector4{
+	height: 500px;
+	background: white;
+}
+#sector5{
+	background: white;
+}
+.fair{
+	clear: both;
+}
+.fair div{
+	margin: 5px;
+	float: left;
+	width: 298px;
+	height: 180px;
+	background-size: cover;
+}
+
+#sector6{
+	background: white;
+}
+.class_schedule{
+	clear: both;
+}
+.class_schedule li{
+	display: block;
+	float: left;
+	list-style: none;
+	width: 200px;
+	height: 300px;
+	margin-right: 21px;
+	background-size: cover;
+	text-align: center;
+}
+.class_schedule li a{
+	color: #cb3d4d;
+    font-size: 22px;
+    font-weight: bold;
+}
+.class_schedule li span{
+	display: block;
+	font-size: 10px;
+}
+#footer{
+	height: 80px;
+	background: #404040;
+}

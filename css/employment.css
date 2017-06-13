@@ -10,7 +10,7 @@
 	padding: 15px 0;
     font-size: 26px;
     font-weight: bold;
-    color: #cf0f0f;
+    color: #233f90;
     text-align: center;
     background: url(../images/h1Bg.jpg) repeat-x;
 }
@@ -70,8 +70,14 @@
 	font-family: '微软雅黑';
     text-decoration: none;
 }
-#headimg ul li a:hover,#headimg ul .checked a{
-	color: #f1f36c;
+#headimg ul li:hover{
+	/*border-top: solid 3px #95eaff;
+	border-bottom: solid 3px #95eaff;*/
+	transform:rotate(-7deg);
+	-ms-transform:rotate(-7deg); 	/* IE 9 */
+	-moz-transform:rotate(-7deg); 	/* Firefox */
+	-webkit-transform:rotate(-7deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-7deg); 	/* Opera */
 }
 #sector2{
 	background: #fff;
@@ -81,16 +87,16 @@
 	width: 100%;
 	color: #fff;
 	height: 500px;
-	background-color:#083230;
+	background-color:#0a8383;
 	position: relative;
 }
 .text2{
 	margin: auto;
 	padding-top: 20px;
-	margin-bottom: 30px;
+	margin-top: 10px;
 	width: 700px;
 	font-size: 16px;
-	line-height: 22px;
+	line-height: 30px;
 	color: #fff;
 }
 #sector3{
@@ -167,3 +173,4 @@
 	height: 80px;
 	background: #404040;
 }
+
