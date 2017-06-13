@@ -54,7 +54,7 @@
  .ribbon-left{
  	display: block;
  	border-left: 10px solid white;
- 	border-top: 8px solid #E4393C;
+ 	border-top: 8px solid #02335c;
  	float: left;
  	height: 0;
  	margin-left: -10px;
@@ -62,7 +62,7 @@
  .ribbon-right{
  	display: block;
  	border-right: 10px solid white;
- 	border-top: 8px solid #E4393C;
+ 	border-top: 8px solid #02335c;
  	float: right;height: 0;
  	margin-right: -10px;
  	width: 0;}

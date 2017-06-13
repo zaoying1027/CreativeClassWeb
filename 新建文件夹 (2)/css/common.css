@@ -1,5 +1,5 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Microsoft Yahei";
     font-size: 14px;
     line-height: 1.42857143;
 	color: #333;}
@@ -32,7 +32,7 @@ body {
     text-align: center;
 }
 .nav1:hover p{
-	color: rgb(232,25,41);
+	color: #295fef;
 }
 .nav1:hover .on{
 	display: inline;
@@ -89,7 +89,7 @@ ul {
     padding-left: 50px;
 }
 #bar li:hover{
-	background-color: rgb(232,25,41);
+	background-color: #02335c;
 }
 #bar li:hover a{
 	color: #fff;
@@ -111,7 +111,7 @@ a:link{
 	text-decoration: none;
 }
 .click{
-	background: rgb(232,25,41);
+	background: #02335c;
 }
 .click a{
 	color: #fff;
