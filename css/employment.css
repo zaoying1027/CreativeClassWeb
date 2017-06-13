@@ -34,6 +34,7 @@
 }
 
 #headimg{
+	margin-top: 10px;
 	height: 484px;
     background: rgba(0, 0, 0, 0) url(../images/employee/bannerBg.png) no-repeat scroll center top;
 }
@@ -87,7 +88,7 @@
 	width: 100%;
 	color: #fff;
 	height: 500px;
-	background-color:#0a8383;
+	background:#01335b;
 	position: relative;
 }
 .text2{
@@ -173,4 +174,30 @@
 	height: 80px;
 	background: #404040;
 }
+.center{
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	width: 100%;
+	background: #004658;
+	height:8px;
+	z-index: -9999;
+}
+.separate{
+	margin-top: 30px;
+	position: relative;
+	height:50px;
+}
 
+.tl{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	width: 160px;
+	background-color:#004658;
+	color: #fff;
+	font-size: 22px;
+	font-weight:bold;
+	border-radius: 15px;
+	margin: auto;
+}
