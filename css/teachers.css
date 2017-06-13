@@ -4,6 +4,7 @@
 	font-family: "微软雅黑";
 }
 #headimg{
+	margin-top: 10px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/teachers/bannerBg.png") no-repeat scroll center top;
 }
@@ -49,16 +50,7 @@
 	-webkit-transform:rotate(-7deg); /* Safari 和 Chrome */
 	-o-transform:rotate(-7deg); 	/* Opera */
 }
-.separate{
-	background: url(../images/h1Bg.jpg) repeat-x;
-	color: #233f90;
-	height:58px;
-	font-size: 26px;
-	font-weight: bold;
-	line-height: 58px;
-	text-align: center;
-	
-}
+
 #firstimg{
 	height: 543px;
 	text-align: center;
@@ -76,25 +68,34 @@
 	height:58px;
 }
 .center{
-	height:58px;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	width: 100%;
+	background: #004658;
+	height:8px;
+	z-index: -9999;
+}
+.separate{
+	margin-top: 30px;
+	position: relative;
+	height:50px;
+}
+
+.tl{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	width: 160px;
+	background-color:#004658;
+	color: #fff;
+	font-size: 22px;
+	font-weight:bold;
+	border-radius: 15px;
+	margin: auto;
 }
 .clear{
 	clear:both; height: 0; line-height: 0; font-size: 0;
-}
-.tl{
-	margin-top: 30px;
-	margin-left:45%;
-	text-align: center;
-	height: 60px;
-	line-height: 60px;
-	width: 160px;
-	background-color:#004658;
-	color: #95eaff;
-	font-size: 24px;
-	font-weight:bold;
-	border-radius: 15px;
-	float: left;
-	
 }
 .texts{
 	text-align: left;
