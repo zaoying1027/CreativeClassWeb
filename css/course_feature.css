@@ -5,7 +5,6 @@ body{
 	width: 935px;
     margin: 0px auto;
     overflow: hidden;
-    padding-top: 40px;
     padding-bottom: 60px;
 }
 .title{
@@ -19,26 +18,29 @@ body{
 }
 .text1{
 	margin: auto;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	width: 800px;
 	font-size: 16px;
-	line-height: 22px;
+	line-height: 30px;
 	color: #000;
 }
 .text2{
 	margin: auto;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	width: 800px;
 	font-size: 16px;
-	line-height: 22px;
+	line-height: 30px;
 	color: black;
 }
 .text3{
 	margin: auto;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	width: 800px;
 	font-size: 16px;
-	line-height: 22px;
+	line-height: 30px;
 	color: black;
 	text-align: center;
 }
@@ -95,9 +97,10 @@ body{
 }
 #sector2_img{
 	margin: auto;
+	margin-top: 50px;
 	width: 500px;
 	height: 500px;
-	background: url(../images/course_fea_img/threecircle.png) no-repeat;
+	background: url(../images/course_fea_img/threecircle1.png) no-repeat;
 	background-size: 100% 100%;
 	position: relative;
 }
@@ -141,17 +144,17 @@ body{
 .inner_text p{
 	font-size: 16px;
 }
-.inner_text:nth-of-type(4){
+.inner_text:nth-of-type(1){
 	position: absolute;
 	top: 10%;
 	left: 40%;
 }
-.inner_text:nth-of-type(5){
+.inner_text:nth-of-type(2){
 	position: absolute;
 	top: 63%;
 	left: 8%;
 }
-.inner_text:nth-of-type(6){
+.inner_text:nth-of-type(3){
 	position: absolute;
 	top: 63%;
 	left: 73%;
@@ -266,7 +269,7 @@ body{
 	font-weight: bold;
 }
 #tabletitle{
-	background: #242424;
+	background: #042d54;
 	width: 935px;
 	height: 70px; 
 	color: white;
@@ -275,7 +278,7 @@ body{
 }
 .tablerow2{
 	height: 30px;
-	background: #ffcb4d;
+	background: #51cee0;
 }
 .table_content{
 	background: #ccc;
