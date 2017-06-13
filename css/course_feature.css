@@ -22,7 +22,7 @@ body{
 	left: 0px;
 	top: 24px;
 	width: 100%;
-	background: #004658;
+	background: #02335c;
 	height:3px;
 	z-index: -9999;
 }
@@ -36,7 +36,7 @@ body{
 	text-align: center;
 	height: 50px;
 	line-height: 50px;
-	background-color:#004658;
+	background-color:#02335c;
 	color: #fff;
 	font-size: 22px;
 	font-weight:bold;
@@ -99,7 +99,7 @@ body{
 #headimg{
 	margin-top: 10px;
 	height: 484px;
-    background: rgba(0, 0, 0, 0) url(../images/course_fea_img/bannerBg.png) no-repeat scroll center top;
+    background: rgba(0, 0, 0, 0) url(../images/course_fea_img/bannerBg4.png) no-repeat scroll center top;
 }
 #headimg ul{
 	width: 980px;
@@ -116,7 +116,7 @@ body{
 }
 #headimg ul li:nth-of-type(2){
 	margin-left: 105px;
-	margin-top: -5px !important;
+	margin-top: 0px !important;
 }
 #headimg ul li:nth-of-type(3){
 	margin-left: 98px;

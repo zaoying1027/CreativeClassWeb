@@ -52,11 +52,11 @@
 }
 
 #firstimg{
-	height: 543px;
+	height: 465px;
 	text-align: center;
 }
 #secondimg{
-	height: 750px;
+	height: 660px;
 }
 #thirdimg{
 	background-color:#3c3c3c;
@@ -70,14 +70,14 @@
 .center{
 	position: absolute;
 	left: 0px;
-	top: 20px;
+	top: 24px;
 	width: 100%;
-	background: #004658;
-	height:8px;
+	background: #02335c;
+	height:3px;
 	z-index: -9999;
 }
 .separate{
-	margin-top: 30px;
+	margin: 50px 0px 40px 0px;
 	position: relative;
 	height:50px;
 }
@@ -87,12 +87,15 @@
 	height: 50px;
 	line-height: 50px;
 	width: 160px;
-	background-color:#004658;
+	background-color:#02335c;
 	color: #fff;
 	font-size: 22px;
 	font-weight:bold;
 	border-radius: 15px;
 	margin: auto;
+}
+.tl1{
+	width: 195px;
 }
 .clear{
 	clear:both; height: 0; line-height: 0; font-size: 0;
