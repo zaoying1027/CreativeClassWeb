@@ -40,12 +40,18 @@
 	font-family: '微软雅黑';
     text-decoration: none;
 }
-#headimg .checked a,#headimg ul li a:hover{
-	color: #f1f36c;
+#headimg ul li:hover{
+	/*border-top: solid 3px #95eaff;
+	border-bottom: solid 3px #95eaff;*/
+	transform:rotate(-7deg);
+	-ms-transform:rotate(-7deg); 	/* IE 9 */
+	-moz-transform:rotate(-7deg); 	/* Firefox */
+	-webkit-transform:rotate(-7deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-7deg); 	/* Opera */
 }
 .separate{
 	background: url(../images/h1Bg.jpg) repeat-x;
-	color: #cf0f0f;
+	color: #233f90;
 	height:58px;
 	font-size: 26px;
 	font-weight: bold;
@@ -82,8 +88,8 @@
 	height: 60px;
 	line-height: 60px;
 	width: 160px;
-	background-color:#cf0f0f;
-	color: white;
+	background-color:#004658;
+	color: #95eaff;
 	font-size: 24px;
 	font-weight:bold;
 	border-radius: 15px;
@@ -98,6 +104,7 @@
 	color: #000000;
 	text-indent:2em;
 	font-weight: bold;
+	line-height: 30px;
 	font-size: 16px;
 }
 .text{
@@ -168,7 +175,7 @@
 	text-align: center;
 	margin: auto 55px auto -40px;
 	font-size: 36px;
-	color: red;
+	color: #006475;
 }
 #footer{
 	margin-top: 40px;

@@ -4,7 +4,6 @@ body{
 .wrap{
 	width: 690px;
     margin: 0px auto;
-    overflow: hidden;
     padding-top: 40px;
     padding-bottom: 60px;
 }
