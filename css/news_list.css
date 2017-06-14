@@ -16,27 +16,35 @@
 	letter-spacing: 4px;
 }
 .list{
+	padding: 0px;
 	display: none;
 	border-top: 2px solid #002b46;
 }
 .news{
+	width: 890px;
+	margin: auto;
 	color: #002B46;
 	margin-top: 30px;
-	margin-left: 20px;
-	padding: 0px 20px 30px 35px;
+	margin-left: 50px;
+	padding-bottom: 40px;
+/*	padding: 0px 20px 30px 35px;*/
 	letter-spacing: 2px;
 	font-weight: 550;
 	border-bottom: dashed 2px grey;
+	padding-left: 0px;
 }
 .news span{
 	font-size: 16px;
 	color: grey;
-	margin-left: 319px;
+	margin-left: 265px;
 }
 .news li{
+	width: 890px;
 	margin-top: 20px;
 }
 .news li a{
+	display: block;
+	width: 890px;
 	font-size: 22px;
 	cursor: pointer;
 }
