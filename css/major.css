@@ -6,7 +6,7 @@
 #headimg{
 	margin-top: 10px;
 	height:484px;
-	background: rgba(0, 0, 0, 0) url("../images/teachers/bannerBg.png") no-repeat scroll center top;
+	background: rgba(0, 0, 0, 0) url("../images/major/bannerBg.png") no-repeat scroll center top;
 }
 #headimg ul{
 	width: 980px;
@@ -53,16 +53,30 @@
 }
 
 #firstimg{
+	width: 860px;
 	height: 465px;
 	text-align: center;
+	margin: auto;
+}
+#firstimg img{
+	height: 400px;
 }
 #secondimg{
-	height: 660px;
+	width: 980px;
+	height: 465px;
+	text-align: center;
+	margin: auto;
+}
+#secondimg img{
+	width: 200px;
+}
+.Pimg{
+	margin-top: 90px;
+	margin-left: 68px;
 }
 #thirdimg{
-	background-color:#3c3c3c;
 	text-align: center;
-	height: 600px;
+	height: 475px;
 }
 .top{
 	background-color:#3c3c3c;
@@ -103,14 +117,26 @@
 }
 .texts{
 	text-align: left;
+	margin: 40px auto;
+    overflow: hidden;
+	height: 300px;
+    width: 400px;
+	color: #002450;
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 26px;
+	padding: 80px 20px 0px;
+}
+.texts2{
+	text-align: center;
 	margin: 20px auto;
     overflow: hidden;
-    width: 630px;
-	color: #000000;
+    width: 960px;
+	color: #00345B;
 	text-indent:2em;
-	font-weight: bold;
-	line-height: 30px;
-	font-size: 16px;
+	line-height: 50px;
+	font-size: 24px;
+	letter-spacing: 3px;
 }
 .text{
 	margin: 60px auto;
@@ -119,72 +145,19 @@
 	width: 800px; 
 	text-indent:2em;
 }
-#zju{
-	height: 200px;
-	width: 800px;
-	background-color: #F6F6F6;
-	margin: 20px auto;
-    overflow: hidden;
-    border-bottom: solid #9D9D9D;
-}
-#zju p{
-	font-weight: bold;
-	text-indent:2em;
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 25px;
-	font-size: 10px;
-	width: 270px;
-}
-.btext{
-	display: block;
-	margin-left: 10px;
-	font-weight: bold;
-}
-#zjd{
-	height: 330px;
-	width: 800px;
-	background-color: #F6F6F6;
-	margin: -20px auto;
-    overflow: hidden;
-}
-#zjd table{
-	margin-top: 20px;
-}
-#zjd td{
-	padding: 5px;
-}
-.ptext{
-	display: block;
-	margin-top: 10px;
-	margin-left: 30px;
-	font-weight: bold;
-	
-}
-#compare{
-	margin: 40px auto;
-	width: 1200px;
-	position: relative;
-}
-#Internet{
-	float: left;
-	margin-left: 108px;
-}
-#tradition{
 
-	float: left;
-}
-#VS{
-	float: left;
-	line-height: 300px;
-	text-align: center;
-	margin: auto 55px auto -40px;
-	font-size: 36px;
-	color: #006475;
-}
 #footer{
 	margin-top: 40px;
 	height: 80px;
 	background: #404040;
 }
-
+.quotation{
+	font-weight: bold;
+	height: 330px;
+	font-size: 88px;
+	color: #002450;
+	margin-top: 40px;
+}
+.quo{
+	margin-left: 100px;
+}
