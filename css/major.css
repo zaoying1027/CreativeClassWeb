@@ -4,7 +4,7 @@
 	font-family: "微软雅黑";
 }
 #headimg{
-	margin-top: 10px;
+	margin-top: 5px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/major/bannerBg.png") no-repeat scroll center top;
 }
@@ -78,10 +78,7 @@
 	text-align: center;
 	height: 475px;
 }
-.top{
-	background-color:#3c3c3c;
-	height:58px;
-}
+
 .center{
 	position: absolute;
 	left: 0px;

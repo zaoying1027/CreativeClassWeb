@@ -1,4 +1,13 @@
 // JavaScript Document
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 800) {
+        $('#menu').fadeIn();
+    }
+    else {
+        $('#menu').fadeOut();
+    }
+
+});
 $(document).ready(function(){
 	$('.carousel').carousel({
 		interval: 2000

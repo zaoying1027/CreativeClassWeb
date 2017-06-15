@@ -53,13 +53,13 @@
     padding: 60px 0 0 0;
 }
 .major li p:nth-of-type(1) {
-	color: #233f90;
+	color: #02335b;
     font-size: 16px;
     padding: 4px 0;
 }
 .title1 {
 	 font-family: "Microsoft Yahei";
-	color: #233f90;
+	color: #02335b;
     font-size: 40px;
     text-align: center;
 }
@@ -81,7 +81,15 @@
 }
 .about-hxsd .about-detail .fz14 {
     line-height: 28px;
-    padding: 36px 0 40px;
+    padding: 36px 0 5px;
+}
+.about-hxsd .about-detail .fz16 {
+    line-height: 28px;
+    padding-bottom: 10px;
+	text-align: right;
+}
+.about-hxsd .about-detail .fz16 a{
+    color: #02335b;
 }
 .official-video {
     background: center top;
@@ -145,7 +153,7 @@ a:hover{
 	font-size: 18px;
 }
 .fwzq li:hover p:nth-of-type(1){
-	color:#4174ff;
+	color:#02335b;
 }
 .fwzq li p:nth-of-type(2){
 	padding: 6px 0 0 0;
@@ -269,7 +277,7 @@ a:hover{
 	margin: 0 auto;
 	font-size:33px;
 	text-align:center;
-	color:#000000;
+	color:#02335b;
 	margin-top:50px;
 	margin-bottom:60px;
 }
@@ -349,4 +357,11 @@ a:hover{
 	padding: 0px;
 	border: none;
 	float: left;
+}
+.moreNews{
+	margin-right: 10px;
+}
+.moreNews a{
+	color: #02335b;
+	font-size: 18px;
 }

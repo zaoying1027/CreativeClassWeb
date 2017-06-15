@@ -94,10 +94,8 @@ body{
 	font-size: 16px;
 	color: black;
 }
-#sector1{
-}
 #headimg{
-	margin-top: 10px;
+	margin-top: 5px;
 	height: 484px;
     background: rgba(0, 0, 0, 0) url(../images/course_fea_img/bannerBg4.png) no-repeat scroll center top;
 }
@@ -382,7 +380,6 @@ body{
 .tableAbgcolor span{
 	color: white;
 	display: block;
-	width: ;
 }
 .no_border{
 	border-left: none;

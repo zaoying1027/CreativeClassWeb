@@ -4,7 +4,7 @@
 	font-family: "微软雅黑";
 }
 #headimg{
-	margin-top: 10px;
+	margin-top: 5px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/teachers/bannerBg.png") no-repeat scroll center top;
 }
@@ -64,10 +64,7 @@
 	text-align: center;
 	height: 600px;
 }
-.top{
-	background-color:#3c3c3c;
-	height:58px;
-}
+
 .center{
 	position: absolute;
 	left: 0px;
@@ -163,22 +160,19 @@
 }
 #compare{
 	margin: 40px auto;
-	width: 1200px;
+	width: 980px;
 	position: relative;
 }
 #Internet{
 	float: left;
-	margin-left: 108px;
 }
 #tradition{
-
-	float: left;
+	float: right;
 }
 #VS{
-	float: left;
-	line-height: 300px;
-	text-align: center;
-	margin: auto 55px auto -40px;
+	position: absolute;
+	top: 130px;
+	left: 48%;
 	font-size: 36px;
 	color: #006475;
 }

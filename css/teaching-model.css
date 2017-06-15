@@ -4,7 +4,7 @@
 	font-family: "微软雅黑";
 }
 #headimg{
-	margin-top: 10px;
+	margin-top: 5px;
 	height:484px;
 	background: rgba(0, 0, 0, 0) url("../images/teaching-model/bannerBg.png") no-repeat scroll center top;
 }
@@ -128,6 +128,12 @@
 	font-size: 36px;
 	font-weight: 400;
 }
+#compare img{
+	padding: 0px;
+	width: 980px;
+	margin-top: 50px;
+	margin-left: -15px;
+}
 .texts{
 	padding-top: 30px;
 	margin: 0 auto;
@@ -139,6 +145,7 @@
 	text-align: center;
 	height: 543px;
 }
+
 .clear{
 	display: block;
 	width: 750px;
@@ -159,12 +166,15 @@
 }
 .icon{
 	display: block;
-	width: 1080px;
+	width: 980px;
 	margin: 0 auto;
 }
 .icon li{
 	float: left;
-	padding-right: 16px;
+	padding-right: 6px;
+}
+.icon li img{
+	width: 190px;
 }
 #footer{
 	height: 80px;
