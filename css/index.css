@@ -365,3 +365,8 @@ a:hover{
 	color: #02335b;
 	font-size: 18px;
 }
+.waiting{
+	height: 112px;
+	line-height: 112px;
+	padding-left: 40px;
+}

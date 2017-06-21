@@ -97,7 +97,7 @@ body{
 #headimg{
 	margin-top: 5px;
 	height: 484px;
-    background: rgba(0, 0, 0, 0) url(../images/course_fea_img/bannerBg4.png) no-repeat scroll center top;
+    background: rgba(0, 0, 0, 0) url(../images/course_fea_img/bannerBg4.jpg) no-repeat scroll center top;
 }
 #headimg ul{
 	width: 980px;
@@ -262,11 +262,11 @@ body{
 	height: 180px;
 }
 .sector5_img:nth-of-type(1) div:nth-of-type(1){
-	background: url(../images/course_fea_img/shixi1.jpg) no-repeat;
+	background: url(../images/course_fea_img/shixi1.png) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(1) div:nth-of-type(2){
-	background: url(../images/course_fea_img/shixi2.jpg) no-repeat;
+	background: url(../images/course_fea_img/shixi2.png) no-repeat;
 	background-size: 100% 100%;
 }
 .sector5_img:nth-of-type(1) div:nth-of-type(3){

@@ -126,7 +126,6 @@
 }
 #zju p{
 	font-weight: bold;
-	text-indent:2em;
 	padding-left: 10px;
 	padding-right: 10px;
 	line-height: 25px;
@@ -181,4 +180,22 @@
 	height: 80px;
 	background: #404040;
 }
-
+.introduce{
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 25px;
+	font-size: 10px;
+	width: 270px;
+}
+.introduce2{
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 25px;
+	font-size: 10px;
+	width: 270px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

@@ -33,7 +33,7 @@
 	border-bottom: dashed 2px grey;
 	padding-left: 0px;
 }
-.news span{
+.date{
 	font-size: 16px;
 	color: grey;
 	margin-left: 265px;
@@ -47,6 +47,13 @@
 	width: 890px;
 	font-size: 22px;
 	cursor: pointer;
+}
+.newline{
+	float: left;
+	width: 515px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 .buttons{
 	font-size: 12px;
