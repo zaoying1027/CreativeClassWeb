@@ -64,7 +64,23 @@
 	text-align: center;
 	height: 600px;
 }
-
+.firstrowImg{
+	padding-top: 90px;
+}
+.rowImg{
+	margin: auto;
+	clear: both;
+	width: 810px;
+}
+.rowImg div{
+	float: left;
+	margin-left: 9px;
+	margin-top: 9px;
+}
+.rowImg div img{
+	width: 92px;
+	height: 126px;
+}
 .center{
 	position: absolute;
 	left: 0px;

@@ -53,22 +53,16 @@
 }
 
 #firstimg{
-	width: 860px;
-	height: 465px;
+	width: 980px;
 	text-align: center;
 	margin: auto;
 }
-#firstimg img{
-	height: 400px;
-}
+
 #secondimg{
 	width: 980px;
-	height: 465px;
+	height: 448px;
 	text-align: center;
 	margin: auto;
-}
-#secondimg img{
-	width: 200px;
 }
 .Pimg{
 	margin-top: 90px;
@@ -76,7 +70,6 @@
 }
 #thirdimg{
 	text-align: center;
-	height: 475px;
 }
 
 .center{
@@ -112,49 +105,160 @@
 .clear{
 	clear:both; height: 0; line-height: 0; font-size: 0;
 }
-.texts{
+.member{
+	width: 980px;
+	height: 280px;
+	margin: auto;
+	box-shadow: 0px 0px 20px 8px #D1D1D1;
+}
+.ppp1{
+	font-size: 18px;
+	text-indent: 2em;
+	line-height: 30px;
 	text-align: left;
-	margin: 40px auto;
-    overflow: hidden;
-	height: 300px;
-    width: 400px;
-	color: #002450;
-	font-weight: bold;
-	line-height: 40px;
-	font-size: 26px;
-	padding: 80px 20px 0px;
+	margin-bottom: 30px;
 }
-.texts2{
-	text-align: center;
-	margin: 20px auto;
-    overflow: hidden;
-    width: 960px;
-	color: #00345B;
-	text-indent:2em;
-	line-height: 50px;
-	font-size: 24px;
-	letter-spacing: 3px;
+.menberleft{
+	float: left;
+	width: 480px;
+	height: 350px;
+	margin-left: 20px;
+	margin-top: 25px;
 }
-.text{
-	margin: 60px auto;
-	font-weight: bold;
+.memberright{
+	float: right;
+	width: 480px;
+	height: 350px;
+	margin-top: 25px;
+}
+.mem1{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 150px;
+	height: 164px;
+}
+.mem1 img{
+	margin: 0px;
+	padding: 0px;
+	max-height: 164px;
+}
+.mem2{
 	font-size: 16px;
-	width: 800px; 
-	text-indent:2em;
+	width: 280px;
+	line-height: 30px;
+	float: left;
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 20px;
 }
-
+.mem2 p{
+	float: left;
+}
+.mem3{
+	clear: both;
+	font-size: 14px;
+	text-align: left;
+}
+.mem3 p:nth-of-type(1){
+	padding-top: 20px;
+}
+.teacherWork{
+	width: 900px;
+	margin: auto;
+}
+.teacherWork img{
+	width: 115px;
+}
+.Twork{
+	text-align: center;
+	border-right: 1px solid #DADADA;
+}
 #footer{
-	margin-top: 40px;
+	margin-top: 30px;
 	height: 80px;
 	background: #404040;
 }
-.quotation{
-	font-weight: bold;
-	height: 330px;
-	font-size: 88px;
-	color: #002450;
-	margin-top: 40px;
+.can {
+    overflow: hidden;
 }
-.quo{
-	margin-left: 100px;
+.can p {
+    margin: 10px 0 0 0;
+    line-height: 28px;
+    font-size: 18px;
+	font-weight: 500;
+}
+.schoolL{
+	width: 477px;
+	height: 224px;
+	background-color: #263747;
+	color: #fff;
+}
+.schoolR{
+	float: right;
+	width: 440px;
+	height: 224px;
+}
+.schoolR h2{
+	margin-top: 0px;
+}
+.frh2{
+	width: 440px;
+	height: 224px;
+}
+.frh2 h2{
+	margin-top: 10px;
+}
+.sbg{
+	width: 476px;
+	height: 224px;
+	background-color: #263747;
+}
+.sbg img{
+	padding-top: 52px;
+}
+.wimg{
+	margin-left: 10px;
+	width: 120px;
+	height: 80px;
+}
+.wimg img{ 
+	width: 120px;
+	height: 80px;
+}
+.Spic{
+	margin-left: 38px;
+}
+.pic{
+	margin-top: 8px;
+	height: 82px;
+}
+
+.wrap{
+	width: 830px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.wrap img{
+	width: 385px;
+	max-height: 218px;
+}
+.texts2{
+	margin: auto;
+	text-align: center;
+	clear: both;
+	padding-top: 20px;
+	font-size: 18px;
+	width: 750px;
+}
+#thirdimg_img1 div{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#thirdimg_img2{
+	clear: both;
+}
+#thirdimg_img2 div{
+	margin-left: 20px;
+	margin-top: 20px;
 }

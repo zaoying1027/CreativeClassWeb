@@ -30,27 +30,61 @@ h1{
 	font-size: 24px;
 	color: #02335c;
 }
+h3{
+	color: #02335c;
+	font-size: 18px;
+}
 .text p{
 	padding: 20px;
 }
 #footer{
 	margin-top: 80px;
 	background-color:#02335c ;
-	height: 900px;
+	height: 200px;
 	text-align: center;
 	color: white;
 	font-size: 20px;
 }
 #footer p{
-	padding: 20px;
+	font-size: 18px;
 }
 #footer table{
 	width: 450px;
 	margin: auto;
 }
+#footer table tr td{
+	border: none;
+}
 .code{
-	width: 200px;
-	height: 200px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 3px;
+	margin-left: 40px;
+}
+.code p{
+	margin-top: 3px;
+}
+.code img{
+	width: 130px;
+	height: 130px;
+}
+.TRS_PreAppend{
+	width: 100% !important;
+}
+.fenge{
+	width: 100%;
+	height: 60px;
+	margin-top: 60px;
+	border-top: dashed 2px #002650;
+}
+.wrap{
+	padding-top: 15px;
+	width: 980px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.wrap span{
+	font-size: 14px;
+}
+.footP{
+	margin-left: 100px;
 }

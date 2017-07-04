@@ -97,7 +97,7 @@ body{
 #headimg{
 	margin-top: 5px;
 	height: 484px;
-    background: rgba(0, 0, 0, 0) url(../images/course_fea_img/bannerBg4.jpg) no-repeat scroll center top;
+    background: rgba(0, 0, 0, 0) url(../images/course_fea_img/bannerBg4.png) no-repeat scroll center top;
 }
 #headimg ul{
 	width: 980px;
@@ -110,7 +110,7 @@ body{
 	float: left;
     font-size: 15px;
     font-weight: bold;
-    margin: 0 0 0 53px;
+    margin: 0 0 0 26px;
 }
 #headimg ul li:nth-of-type(2){
 	margin-left: 112px;
@@ -125,7 +125,7 @@ body{
 	
 }
 #headimg ul li:nth-of-type(5){
-	margin-left: 130px;
+	margin-left: 123px;
 }
 #headimg ul li a{
 	color: #95eaff;

@@ -186,6 +186,9 @@ a:hover{
 .newsunit .news-text h2{
 	color: #333;
 	font-size: 20px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .newsunit .news-text p{
 	color: #8b8e9c;
@@ -285,6 +288,10 @@ a:hover{
     width: 990px;
     margin: 0 auto;
 }
+.star img{
+	width: 189px;
+	height: 241px;
+}
 .star li {
     width: 220px;
     float: left;
@@ -337,8 +344,12 @@ a:hover{
 }
 .imgFloat{
 	float: left;
-	margin-left: 40px;
+	margin-left: 30px;
 }
+/*.imgFloat img{
+	width: 300px;
+	height: 225px;
+}*/
 .playVideo{
 	margin: 0 auto;
 	margin-bottom: 30px;
@@ -369,4 +380,68 @@ a:hover{
 	height: 112px;
 	line-height: 112px;
 	padding-left: 40px;
+}
+.ct{
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:3; 
+}
+#import{
+	margin: auto !important;
+}
+#xqmodal{
+	width: 844px;
+	margin: 0;
+}
+.xq{
+	width: 970px;
+}
+.Lxq{
+	float:left;
+	width: 239px;
+	height: 305px;
+	overflow: hidden;
+}
+.Lxq img{
+	width: 239px;
+	min-height: 305px;
+
+}
+.Rxq{
+	color: #fff;
+	width: 585px;
+	float: left;
+	height: 305px;
+	background-color: rgba(2,51,92,0.9);
+}
+.Rxq p{
+	margin-left: 20px;
+	font-size: 16px;
+	display:block;
+	padding-right: 20px;
+}
+.Rxq h3{
+	margin-left: 20px;
+}
+.p2{
+	padding-top: 30px;
+}
+.madolbg{
+	background:url(../images/index/modal.png);
+	background-size: cover;
+	width: 585px;
+	float: left;
+	height: 305px;
+	position: relative;
+}
+.closeModal{
+	position: absolute;
+	right:10px;
+	top: 10px;
+	width: 18px;
+	height: 18px;
+	cursor:pointer;
+	color: #fff;
 }

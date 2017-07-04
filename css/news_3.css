@@ -2,9 +2,9 @@ body{
 	font-family: "微软雅黑";
 }
 .wrap{
-	width: 690px;
+	width: 980px;
     margin: 0px auto;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 60px;
 }
 .wrap h1{
@@ -12,14 +12,14 @@ body{
 	font-size: 24px;
 }
 .information{
+	margin: auto;
+	width: 690px;
 	text-align: center;
 	margin-top: 40px;
-	margin-left: 56px;
-	margin-right: 56px;
 	padding-bottom: 4px;
 	padding-top: 4px;
 	font-size: 15px;
-	border: dashed 1px grey;
+	
 }
 .news_img{
 	margin: auto;
